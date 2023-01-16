@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TMUIExtensions'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TMUIExtensions.'
+  s.version          = '2.0.6'
+  s.summary          = 'TMUIKit 是个UI库，包含UI，组件，宏，库工具等。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,46 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'TMUIKit iOS 是一个致力于提高项目 UI 开发效率的组件库，为工程提供一些通用的UI基础库及功能组件库以及一些通用的工具库。
+  旨在帮助快速高效的构建工程的基础设计元素，以及统一维护基础元素的版本兼容性处理，助于提高开发效率和项目质量。'
                        DESC
 
-  s.homepage         = 'https://github.com/Joe.cheng/TMUIExtensions'
+  s.homepage         = 'https://github.com/chengzongxin/TMUIKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joe.cheng' => 'joe.cheng@corp.to8to.com' }
-  s.source           = { :git => 'https://github.com/Joe.cheng/TMUIExtensions.git', :tag => s.version.to_s }
+  s.author           = { 'chengzongxin' => 'joe.cheng@corp.to8to.com' }
+  # s.source           = { :git => './'}
+  s.source           = { :git => 'https://github.com/chengzongxin/TMUIKit.git', :tag => "v"+"#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'TMUIExtensions/Classes/**/*'
+#  s.ios.deployment_target = '9.0'
+  s.platform     = :ios, "9.0"
+  s.requires_arc = true
   
   # s.resource_bundles = {
-  #   'TMUIExtensions' => ['TMUIExtensions/Assets/*.png']
+  #   'TMUIKit' => ['TMUIKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
+  #头文件~TMUIKit.h 在最外层
+  
+  s.dependency 'TMUICore'
+
+  #引入TMUIExtensions中所有资源文件
+  s.source_files = 'TMUIExtensions/Classes/**/*'
+  #公开TMUIExtensions模块中的头文件
+  s.public_header_files = 'TMUIExtensions/Classes/*.h'
+  #依赖的三方库，pod库或者可以是自身的subspec
+  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
+
+  s.subspec 'Foundation' do |ss|
+    ss.source_files = 'TMUIExtensions/Classes/Foundation'
+  end
+  
+  s.subspec 'UIKit' do |ss|
+    ss.source_files = 'TMUIExtensions/Classes/UIKit'
+    ss.dependency 'TMUIExtensions/Foundation'
+  end
+
+
 end

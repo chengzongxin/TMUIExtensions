@@ -11,3 +11,7 @@ target 'TMUIExtensions_Example' do
     
   end
 end
+
+target 'TMUIExtensionsBinary' do
+
+end

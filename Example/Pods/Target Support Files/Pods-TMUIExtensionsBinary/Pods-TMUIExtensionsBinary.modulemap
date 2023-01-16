@@ -1,0 +1,6 @@
+framework module Pods_TMUIExtensionsBinary {
+  umbrella header "Pods-TMUIExtensionsBinary-umbrella.h"
+
+  export *
+  module * { export * }
+}

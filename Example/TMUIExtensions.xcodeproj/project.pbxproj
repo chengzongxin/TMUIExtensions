@@ -7,6 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C10E6C29754D7C00E84469 /* TMUIExtensionsBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E6B29754D7C00E84469 /* TMUIExtensionsBinary.m */; };
+		16C10E6D29754D7C00E84469 /* TMUIExtensionsBinary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C10E6A29754D7C00E84469 /* TMUIExtensionsBinary.h */; };
+		16C10ECC29754DA200E84469 /* UITabBarItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */; };
+		16C10ECD29754DA200E84469 /* UITextInputTraits+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7329754DA100E84469 /* UITextInputTraits+TMUI.m */; };
+		16C10ECE29754DA200E84469 /* UITextView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7729754DA100E84469 /* UITextView+TMUI.m */; };
+		16C10ECF29754DA200E84469 /* UITableViewCell+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7829754DA100E84469 /* UITableViewCell+TMUI.m */; };
+		16C10ED029754DA200E84469 /* UIBarButtonItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7B29754DA100E84469 /* UIBarButtonItem+TMUI.m */; };
+		16C10ED129754DA200E84469 /* UITextView+TMUIPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7F29754DA100E84469 /* UITextView+TMUIPlaceholder.m */; };
+		16C10ED229754DA200E84469 /* UIView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8129754DA100E84469 /* UIView+TMUI.m */; };
+		16C10ED329754DA200E84469 /* UITableView+TMUIGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8229754DA100E84469 /* UITableView+TMUIGroup.m */; };
+		16C10ED429754DA200E84469 /* CALayer+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8329754DA100E84469 /* CALayer+TMUI.m */; };
+		16C10ED529754DA200E84469 /* UICollectionViewCell+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8529754DA100E84469 /* UICollectionViewCell+TMUI.m */; };
+		16C10ED629754DA200E84469 /* UIView+TMUIBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8729754DA100E84469 /* UIView+TMUIBorder.m */; };
+		16C10ED729754DA200E84469 /* UIVisualEffectView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8A29754DA100E84469 /* UIVisualEffectView+TMUI.m */; };
+		16C10ED829754DA200E84469 /* UIBarItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8D29754DA100E84469 /* UIBarItem+TMUI.m */; };
+		16C10ED929754DA200E84469 /* CAAnimation+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8E29754DA100E84469 /* CAAnimation+TMUI.m */; };
+		16C10EDA29754DA200E84469 /* UITextField+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E8F29754DA100E84469 /* UITextField+TMUI.m */; };
+		16C10EDB29754DA200E84469 /* UINib+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9129754DA100E84469 /* UINib+TMUI.m */; };
+		16C10EDC29754DA200E84469 /* UINavigationItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9229754DA100E84469 /* UINavigationItem+TMUI.m */; };
+		16C10EDD29754DA200E84469 /* UITableViewHeaderFooterView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9329754DA100E84469 /* UITableViewHeaderFooterView+TMUI.m */; };
+		16C10EDE29754DA200E84469 /* UIScrollView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9629754DA200E84469 /* UIScrollView+TMUI.m */; };
+		16C10EDF29754DA200E84469 /* UIColor+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9A29754DA200E84469 /* UIColor+TMUI.m */; };
+		16C10EE029754DA200E84469 /* UIImage+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9C29754DA200E84469 /* UIImage+TMUI.m */; };
+		16C10EE129754DA200E84469 /* UITableView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9D29754DA200E84469 /* UITableView+TMUI.m */; };
+		16C10EE229754DA200E84469 /* UIControl+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E9E29754DA200E84469 /* UIControl+TMUI.m */; };
+		16C10EE329754DA200E84469 /* UIViewController+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EA229754DA200E84469 /* UIViewController+TMUI.m */; };
+		16C10EE429754DA200E84469 /* UILabel+TMUIAttributesTextClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EA329754DA200E84469 /* UILabel+TMUIAttributesTextClick.m */; };
+		16C10EE529754DA200E84469 /* UICollectionView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EA629754DA200E84469 /* UICollectionView+TMUI.m */; };
+		16C10EE629754DA200E84469 /* UITraitCollection+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EA829754DA200E84469 /* UITraitCollection+TMUI.m */; };
+		16C10EE729754DA200E84469 /* UILabel+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EAA29754DA200E84469 /* UILabel+TMUI.m */; };
+		16C10EE829754DA200E84469 /* UIButton+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EAB29754DA200E84469 /* UIButton+TMUI.m */; };
+		16C10EE929754DA200E84469 /* NSMutableParagraphStyle+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EAF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.m */; };
+		16C10EEA29754DA200E84469 /* NSAttributedString+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB029754DA200E84469 /* NSAttributedString+TMUI.m */; };
+		16C10EEB29754DA200E84469 /* NSMutableDictionary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB229754DA200E84469 /* NSMutableDictionary+TMUI.m */; };
+		16C10EEC29754DA200E84469 /* NSFileManager+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB329754DA200E84469 /* NSFileManager+TMUI.m */; };
+		16C10EED29754DA200E84469 /* NSString+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB629754DA200E84469 /* NSString+TMUI.m */; };
+		16C10EEE29754DA200E84469 /* NSMutableArray+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB729754DA200E84469 /* NSMutableArray+TMUI.m */; };
+		16C10EEF29754DA200E84469 /* NSMethodSignature+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EB829754DA200E84469 /* NSMethodSignature+TMUI.m */; };
+		16C10EF029754DA200E84469 /* NSObject+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EBA29754DA200E84469 /* NSObject+TMUI.m */; };
+		16C10EF129754DA200E84469 /* NSURL+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EBB29754DA200E84469 /* NSURL+TMUI.m */; };
+		16C10EF229754DA200E84469 /* NSDate+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EBC29754DA200E84469 /* NSDate+TMUI.m */; };
+		16C10EF329754DA200E84469 /* NSArray+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EBD29754DA200E84469 /* NSArray+TMUI.m */; };
+		16C10EF429754DA200E84469 /* NSBundle+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EC029754DA200E84469 /* NSBundle+TMUI.m */; };
+		16C10EF529754DA200E84469 /* NSTimer+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EC129754DA200E84469 /* NSTimer+TMUI.m */; };
+		16C10EF629754DA200E84469 /* NSDictionary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */; };
+		16C10EF729754DA200E84469 /* ALAssetsLibrary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10ECB29754DA200E84469 /* ALAssetsLibrary+TMUI.m */; };
+		2452EA6B0B8DD9C0C043B150 /* Pods_TMUIExtensionsBinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C98846AB41D4AB87613B16C /* Pods_TMUIExtensionsBinary.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,9 +83,115 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		16C10E6629754D7C00E84469 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				16C10E6D29754D7C00E84469 /* TMUIExtensionsBinary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1367C06F9E721DD25D0426E4 /* Pods_TMUIExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMUIExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19BD07EF1ACB49D7C522D8E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16C10E6829754D7C00E84469 /* libTMUIExtensionsBinary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMUIExtensionsBinary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C10E6A29754D7C00E84469 /* TMUIExtensionsBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMUIExtensionsBinary.h; sourceTree = "<group>"; };
+		16C10E6B29754D7C00E84469 /* TMUIExtensionsBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMUIExtensionsBinary.m; sourceTree = "<group>"; };
+		16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+TMUI.m"; sourceTree = "<group>"; };
+		16C10E7329754DA100E84469 /* UITextInputTraits+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextInputTraits+TMUI.m"; sourceTree = "<group>"; };
+		16C10E7429754DA100E84469 /* UIScrollView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7529754DA100E84469 /* UINavigationItem+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7629754DA100E84469 /* UITableViewHeaderFooterView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7729754DA100E84469 /* UITextView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E7829754DA100E84469 /* UITableViewCell+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TMUI.m"; sourceTree = "<group>"; };
+		16C10E7929754DA100E84469 /* UINib+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINib+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7A29754DA100E84469 /* UITextField+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7B29754DA100E84469 /* UIBarButtonItem+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TMUI.m"; sourceTree = "<group>"; };
+		16C10E7C29754DA100E84469 /* UITableView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7D29754DA100E84469 /* UIControl+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7E29754DA100E84469 /* UIImage+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TMUI.h"; sourceTree = "<group>"; };
+		16C10E7F29754DA100E84469 /* UITextView+TMUIPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TMUIPlaceholder.m"; sourceTree = "<group>"; };
+		16C10E8029754DA100E84469 /* UIColor+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8129754DA100E84469 /* UIView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8229754DA100E84469 /* UITableView+TMUIGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TMUIGroup.m"; sourceTree = "<group>"; };
+		16C10E8329754DA100E84469 /* CALayer+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8429754DA100E84469 /* UILabel+TMUIAttributesTextClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TMUIAttributesTextClick.h"; sourceTree = "<group>"; };
+		16C10E8529754DA100E84469 /* UICollectionViewCell+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8629754DA100E84469 /* UIViewController+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8729754DA100E84469 /* UIView+TMUIBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMUIBorder.m"; sourceTree = "<group>"; };
+		16C10E8829754DA100E84469 /* UIButton+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8929754DA100E84469 /* UILabel+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8A29754DA100E84469 /* UIVisualEffectView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIVisualEffectView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8B29754DA100E84469 /* UITraitCollection+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8C29754DA100E84469 /* UICollectionView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E8D29754DA100E84469 /* UIBarItem+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8E29754DA100E84469 /* CAAnimation+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+TMUI.m"; sourceTree = "<group>"; };
+		16C10E8F29754DA100E84469 /* UITextField+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9029754DA100E84469 /* UITableViewCell+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TMUI.h"; sourceTree = "<group>"; };
+		16C10E9129754DA100E84469 /* UINib+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINib+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9229754DA100E84469 /* UINavigationItem+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9329754DA100E84469 /* UITableViewHeaderFooterView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9429754DA100E84469 /* UITextView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E9529754DA200E84469 /* UITextInputTraits+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextInputTraits+TMUI.h"; sourceTree = "<group>"; };
+		16C10E9629754DA200E84469 /* UIScrollView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9729754DA200E84469 /* UITabBarItem+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+TMUI.h"; sourceTree = "<group>"; };
+		16C10E9829754DA200E84469 /* UIView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TMUI.h"; sourceTree = "<group>"; };
+		16C10E9929754DA200E84469 /* UITableView+TMUIGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TMUIGroup.h"; sourceTree = "<group>"; };
+		16C10E9A29754DA200E84469 /* UIColor+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9B29754DA200E84469 /* UITextView+TMUIPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TMUIPlaceholder.h"; sourceTree = "<group>"; };
+		16C10E9C29754DA200E84469 /* UIImage+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9D29754DA200E84469 /* UITableView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9E29754DA200E84469 /* UIControl+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TMUI.m"; sourceTree = "<group>"; };
+		16C10E9F29754DA200E84469 /* UIBarButtonItem+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TMUI.h"; sourceTree = "<group>"; };
+		16C10EA029754DA200E84469 /* UIView+TMUIBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TMUIBorder.h"; sourceTree = "<group>"; };
+		16C10EA129754DA200E84469 /* UICollectionViewCell+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TMUI.h"; sourceTree = "<group>"; };
+		16C10EA229754DA200E84469 /* UIViewController+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TMUI.m"; sourceTree = "<group>"; };
+		16C10EA329754DA200E84469 /* UILabel+TMUIAttributesTextClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TMUIAttributesTextClick.m"; sourceTree = "<group>"; };
+		16C10EA429754DA200E84469 /* CALayer+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+TMUI.h"; sourceTree = "<group>"; };
+		16C10EA529754DA200E84469 /* CAAnimation+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+TMUI.h"; sourceTree = "<group>"; };
+		16C10EA629754DA200E84469 /* UICollectionView+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TMUI.m"; sourceTree = "<group>"; };
+		16C10EA729754DA200E84469 /* UIBarItem+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+TMUI.h"; sourceTree = "<group>"; };
+		16C10EA829754DA200E84469 /* UITraitCollection+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+TMUI.m"; sourceTree = "<group>"; };
+		16C10EA929754DA200E84469 /* UIVisualEffectView+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIVisualEffectView+TMUI.h"; sourceTree = "<group>"; };
+		16C10EAA29754DA200E84469 /* UILabel+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TMUI.m"; sourceTree = "<group>"; };
+		16C10EAB29754DA200E84469 /* UIButton+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMUI.m"; sourceTree = "<group>"; };
+		16C10EAC29754DA200E84469 /* TMUIExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMUIExtensions.h; path = ../../TMUIExtensions/Classes/TMUIExtensions.h; sourceTree = "<group>"; };
+		16C10EAE29754DA200E84469 /* NSBundle+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TMUI.h"; sourceTree = "<group>"; };
+		16C10EAF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableParagraphStyle+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB029754DA200E84469 /* NSAttributedString+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB129754DA200E84469 /* NSArray+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TMUI.h"; sourceTree = "<group>"; };
+		16C10EB229754DA200E84469 /* NSMutableDictionary+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB329754DA200E84469 /* NSFileManager+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB429754DA200E84469 /* NSTimer+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TMUI.h"; sourceTree = "<group>"; };
+		16C10EB529754DA200E84469 /* NSDictionary+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TMUI.h"; sourceTree = "<group>"; };
+		16C10EB629754DA200E84469 /* NSString+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB729754DA200E84469 /* NSMutableArray+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB829754DA200E84469 /* NSMethodSignature+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+TMUI.m"; sourceTree = "<group>"; };
+		16C10EB929754DA200E84469 /* ALAssetsLibrary+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+TMUI.h"; sourceTree = "<group>"; };
+		16C10EBA29754DA200E84469 /* NSObject+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TMUI.m"; sourceTree = "<group>"; };
+		16C10EBB29754DA200E84469 /* NSURL+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TMUI.m"; sourceTree = "<group>"; };
+		16C10EBC29754DA200E84469 /* NSDate+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TMUI.m"; sourceTree = "<group>"; };
+		16C10EBD29754DA200E84469 /* NSArray+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TMUI.m"; sourceTree = "<group>"; };
+		16C10EBE29754DA200E84469 /* NSAttributedString+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TMUI.h"; sourceTree = "<group>"; };
+		16C10EBF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableParagraphStyle+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC029754DA200E84469 /* NSBundle+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TMUI.m"; sourceTree = "<group>"; };
+		16C10EC129754DA200E84469 /* NSTimer+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TMUI.m"; sourceTree = "<group>"; };
+		16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TMUI.m"; sourceTree = "<group>"; };
+		16C10EC329754DA200E84469 /* NSFileManager+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC429754DA200E84469 /* NSMutableDictionary+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC529754DA200E84469 /* NSMethodSignature+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC629754DA200E84469 /* NSMutableArray+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC729754DA200E84469 /* NSString+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC829754DA200E84469 /* NSDate+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TMUI.h"; sourceTree = "<group>"; };
+		16C10EC929754DA200E84469 /* NSURL+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+TMUI.h"; sourceTree = "<group>"; };
+		16C10ECA29754DA200E84469 /* NSObject+TMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TMUI.h"; sourceTree = "<group>"; };
+		16C10ECB29754DA200E84469 /* ALAssetsLibrary+TMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+TMUI.m"; sourceTree = "<group>"; };
+		19BD07EF1ACB49D7C522D8E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39AAF0BF86519B9ABEDA9AF4 /* Pods-TMUIExtensionsBinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensionsBinary.debug.xcconfig"; path = "Target Support Files/Pods-TMUIExtensionsBinary/Pods-TMUIExtensionsBinary.debug.xcconfig"; sourceTree = "<group>"; };
 		53983E414116B5830443ABEA /* Pods-TMUIExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensions_Example.release.xcconfig"; path = "Target Support Files/Pods-TMUIExtensions_Example/Pods-TMUIExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		591712A350C630F3F9AEC338 /* Pods_TMUIExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMUIExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TMUIExtensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMUIExtensions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,14 +215,24 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6313C3BC0087E1F28F6D4B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C98846AB41D4AB87613B16C /* Pods_TMUIExtensionsBinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMUIExtensionsBinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6313C3BC0087E1F28F6D4B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB6051CDD50D108817E5F0E2 /* Pods-TMUIExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensions_Tests.release.xcconfig"; path = "Target Support Files/Pods-TMUIExtensions_Tests/Pods-TMUIExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C91B4B611ACA6DE468EBBBC4 /* TMUIExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMUIExtensions.podspec; path = ../TMUIExtensions.podspec; sourceTree = "<group>"; };
+		C91B4B611ACA6DE468EBBBC4 /* TMUIExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMUIExtensions.podspec; path = ../TMUIExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D5E3DE47310F0665B7BC085C /* Pods-TMUIExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensions_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMUIExtensions_Example/Pods-TMUIExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DD0683A8B456C8F558D21F11 /* Pods-TMUIExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensions_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TMUIExtensions_Tests/Pods-TMUIExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EFA587FC61F3694BE61847 /* Pods-TMUIExtensionsBinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMUIExtensionsBinary.release.xcconfig"; path = "Target Support Files/Pods-TMUIExtensionsBinary/Pods-TMUIExtensionsBinary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		16C10E6529754D7C00E84469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2452EA6B0B8DD9C0C043B150 /* Pods_TMUIExtensionsBinary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +258,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C10E6929754D7C00E84469 /* TMUIExtensionsBinary */ = {
+			isa = PBXGroup;
+			children = (
+				16C10E6A29754D7C00E84469 /* TMUIExtensionsBinary.h */,
+				16C10E6B29754D7C00E84469 /* TMUIExtensionsBinary.m */,
+				16C10EAD29754DA200E84469 /* Foundation */,
+				16C10EAC29754DA200E84469 /* TMUIExtensions.h */,
+				16C10E7129754DA100E84469 /* UIKit */,
+			);
+			path = TMUIExtensionsBinary;
+			sourceTree = "<group>";
+		};
+		16C10E7129754DA100E84469 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */,
+				16C10E7329754DA100E84469 /* UITextInputTraits+TMUI.m */,
+				16C10E7429754DA100E84469 /* UIScrollView+TMUI.h */,
+				16C10E7529754DA100E84469 /* UINavigationItem+TMUI.h */,
+				16C10E7629754DA100E84469 /* UITableViewHeaderFooterView+TMUI.h */,
+				16C10E7729754DA100E84469 /* UITextView+TMUI.m */,
+				16C10E7829754DA100E84469 /* UITableViewCell+TMUI.m */,
+				16C10E7929754DA100E84469 /* UINib+TMUI.h */,
+				16C10E7A29754DA100E84469 /* UITextField+TMUI.h */,
+				16C10E7B29754DA100E84469 /* UIBarButtonItem+TMUI.m */,
+				16C10E7C29754DA100E84469 /* UITableView+TMUI.h */,
+				16C10E7D29754DA100E84469 /* UIControl+TMUI.h */,
+				16C10E7E29754DA100E84469 /* UIImage+TMUI.h */,
+				16C10E7F29754DA100E84469 /* UITextView+TMUIPlaceholder.m */,
+				16C10E8029754DA100E84469 /* UIColor+TMUI.h */,
+				16C10E8129754DA100E84469 /* UIView+TMUI.m */,
+				16C10E8229754DA100E84469 /* UITableView+TMUIGroup.m */,
+				16C10E8329754DA100E84469 /* CALayer+TMUI.m */,
+				16C10E8429754DA100E84469 /* UILabel+TMUIAttributesTextClick.h */,
+				16C10E8529754DA100E84469 /* UICollectionViewCell+TMUI.m */,
+				16C10E8629754DA100E84469 /* UIViewController+TMUI.h */,
+				16C10E8729754DA100E84469 /* UIView+TMUIBorder.m */,
+				16C10E8829754DA100E84469 /* UIButton+TMUI.h */,
+				16C10E8929754DA100E84469 /* UILabel+TMUI.h */,
+				16C10E8A29754DA100E84469 /* UIVisualEffectView+TMUI.m */,
+				16C10E8B29754DA100E84469 /* UITraitCollection+TMUI.h */,
+				16C10E8C29754DA100E84469 /* UICollectionView+TMUI.h */,
+				16C10E8D29754DA100E84469 /* UIBarItem+TMUI.m */,
+				16C10E8E29754DA100E84469 /* CAAnimation+TMUI.m */,
+				16C10E8F29754DA100E84469 /* UITextField+TMUI.m */,
+				16C10E9029754DA100E84469 /* UITableViewCell+TMUI.h */,
+				16C10E9129754DA100E84469 /* UINib+TMUI.m */,
+				16C10E9229754DA100E84469 /* UINavigationItem+TMUI.m */,
+				16C10E9329754DA100E84469 /* UITableViewHeaderFooterView+TMUI.m */,
+				16C10E9429754DA100E84469 /* UITextView+TMUI.h */,
+				16C10E9529754DA200E84469 /* UITextInputTraits+TMUI.h */,
+				16C10E9629754DA200E84469 /* UIScrollView+TMUI.m */,
+				16C10E9729754DA200E84469 /* UITabBarItem+TMUI.h */,
+				16C10E9829754DA200E84469 /* UIView+TMUI.h */,
+				16C10E9929754DA200E84469 /* UITableView+TMUIGroup.h */,
+				16C10E9A29754DA200E84469 /* UIColor+TMUI.m */,
+				16C10E9B29754DA200E84469 /* UITextView+TMUIPlaceholder.h */,
+				16C10E9C29754DA200E84469 /* UIImage+TMUI.m */,
+				16C10E9D29754DA200E84469 /* UITableView+TMUI.m */,
+				16C10E9E29754DA200E84469 /* UIControl+TMUI.m */,
+				16C10E9F29754DA200E84469 /* UIBarButtonItem+TMUI.h */,
+				16C10EA029754DA200E84469 /* UIView+TMUIBorder.h */,
+				16C10EA129754DA200E84469 /* UICollectionViewCell+TMUI.h */,
+				16C10EA229754DA200E84469 /* UIViewController+TMUI.m */,
+				16C10EA329754DA200E84469 /* UILabel+TMUIAttributesTextClick.m */,
+				16C10EA429754DA200E84469 /* CALayer+TMUI.h */,
+				16C10EA529754DA200E84469 /* CAAnimation+TMUI.h */,
+				16C10EA629754DA200E84469 /* UICollectionView+TMUI.m */,
+				16C10EA729754DA200E84469 /* UIBarItem+TMUI.h */,
+				16C10EA829754DA200E84469 /* UITraitCollection+TMUI.m */,
+				16C10EA929754DA200E84469 /* UIVisualEffectView+TMUI.h */,
+				16C10EAA29754DA200E84469 /* UILabel+TMUI.m */,
+				16C10EAB29754DA200E84469 /* UIButton+TMUI.m */,
+			);
+			name = UIKit;
+			path = ../../TMUIExtensions/Classes/UIKit;
+			sourceTree = "<group>";
+		};
+		16C10EAD29754DA200E84469 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				16C10EAE29754DA200E84469 /* NSBundle+TMUI.h */,
+				16C10EAF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.m */,
+				16C10EB029754DA200E84469 /* NSAttributedString+TMUI.m */,
+				16C10EB129754DA200E84469 /* NSArray+TMUI.h */,
+				16C10EB229754DA200E84469 /* NSMutableDictionary+TMUI.m */,
+				16C10EB329754DA200E84469 /* NSFileManager+TMUI.m */,
+				16C10EB429754DA200E84469 /* NSTimer+TMUI.h */,
+				16C10EB529754DA200E84469 /* NSDictionary+TMUI.h */,
+				16C10EB629754DA200E84469 /* NSString+TMUI.m */,
+				16C10EB729754DA200E84469 /* NSMutableArray+TMUI.m */,
+				16C10EB829754DA200E84469 /* NSMethodSignature+TMUI.m */,
+				16C10EB929754DA200E84469 /* ALAssetsLibrary+TMUI.h */,
+				16C10EBA29754DA200E84469 /* NSObject+TMUI.m */,
+				16C10EBB29754DA200E84469 /* NSURL+TMUI.m */,
+				16C10EBC29754DA200E84469 /* NSDate+TMUI.m */,
+				16C10EBD29754DA200E84469 /* NSArray+TMUI.m */,
+				16C10EBE29754DA200E84469 /* NSAttributedString+TMUI.h */,
+				16C10EBF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.h */,
+				16C10EC029754DA200E84469 /* NSBundle+TMUI.m */,
+				16C10EC129754DA200E84469 /* NSTimer+TMUI.m */,
+				16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */,
+				16C10EC329754DA200E84469 /* NSFileManager+TMUI.h */,
+				16C10EC429754DA200E84469 /* NSMutableDictionary+TMUI.h */,
+				16C10EC529754DA200E84469 /* NSMethodSignature+TMUI.h */,
+				16C10EC629754DA200E84469 /* NSMutableArray+TMUI.h */,
+				16C10EC729754DA200E84469 /* NSString+TMUI.h */,
+				16C10EC829754DA200E84469 /* NSDate+TMUI.h */,
+				16C10EC929754DA200E84469 /* NSURL+TMUI.h */,
+				16C10ECA29754DA200E84469 /* NSObject+TMUI.h */,
+				16C10ECB29754DA200E84469 /* ALAssetsLibrary+TMUI.m */,
+			);
+			name = Foundation;
+			path = ../../TMUIExtensions/Classes/Foundation;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TMUIExtensions */,
 				6003F5B5195388D20070C39A /* Tests */,
+				16C10E6929754D7C00E84469 /* TMUIExtensionsBinary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				FC470208E9AACDB0D73DE59C /* Pods */,
@@ -112,6 +392,7 @@
 			children = (
 				6003F58A195388D20070C39A /* TMUIExtensions_Example.app */,
 				6003F5AE195388D20070C39A /* TMUIExtensions_Tests.xctest */,
+				16C10E6829754D7C00E84469 /* libTMUIExtensionsBinary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +406,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				591712A350C630F3F9AEC338 /* Pods_TMUIExtensions_Example.framework */,
 				1367C06F9E721DD25D0426E4 /* Pods_TMUIExtensions_Tests.framework */,
+				8C98846AB41D4AB87613B16C /* Pods_TMUIExtensionsBinary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,14 +474,33 @@
 				53983E414116B5830443ABEA /* Pods-TMUIExtensions_Example.release.xcconfig */,
 				DD0683A8B456C8F558D21F11 /* Pods-TMUIExtensions_Tests.debug.xcconfig */,
 				AB6051CDD50D108817E5F0E2 /* Pods-TMUIExtensions_Tests.release.xcconfig */,
+				39AAF0BF86519B9ABEDA9AF4 /* Pods-TMUIExtensionsBinary.debug.xcconfig */,
+				F1EFA587FC61F3694BE61847 /* Pods-TMUIExtensionsBinary.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		16C10E6729754D7C00E84469 /* TMUIExtensionsBinary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C10E7029754D7C00E84469 /* Build configuration list for PBXNativeTarget "TMUIExtensionsBinary" */;
+			buildPhases = (
+				E38C94D1F089A74315749C58 /* [CP] Check Pods Manifest.lock */,
+				16C10E6429754D7C00E84469 /* Sources */,
+				16C10E6529754D7C00E84469 /* Frameworks */,
+				16C10E6629754D7C00E84469 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMUIExtensionsBinary;
+			productName = TMUIExtensionsBinary;
+			productReference = 16C10E6829754D7C00E84469 /* libTMUIExtensionsBinary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		6003F589195388D20070C39A /* TMUIExtensions_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TMUIExtensions_Example" */;
@@ -248,6 +549,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Joe.cheng;
 				TargetAttributes = {
+					16C10E6729754D7C00E84469 = {
+						CreatedOnToolsVersion = 13.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +563,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -268,6 +574,7 @@
 			targets = (
 				6003F589195388D20070C39A /* TMUIExtensions_Example */,
 				6003F5AD195388D20070C39A /* TMUIExtensions_Tests */,
+				16C10E6729754D7C00E84469 /* TMUIExtensionsBinary */,
 			);
 		};
 /* End PBXProject section */
@@ -302,10 +609,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TMUIExtensions_Example/Pods-TMUIExtensions_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TMUICore/TMUICore.framework",
 				"${BUILT_PRODUCTS_DIR}/TMUIExtensions/TMUIExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMUICore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TMUIExtensions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +638,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TMUIExtensions_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38C94D1F089A74315749C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMUIExtensionsBinary-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,6 +691,58 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		16C10E6429754D7C00E84469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C10EE529754DA200E84469 /* UICollectionView+TMUI.m in Sources */,
+				16C10EE729754DA200E84469 /* UILabel+TMUI.m in Sources */,
+				16C10EF529754DA200E84469 /* NSTimer+TMUI.m in Sources */,
+				16C10EF029754DA200E84469 /* NSObject+TMUI.m in Sources */,
+				16C10ECE29754DA200E84469 /* UITextView+TMUI.m in Sources */,
+				16C10ED929754DA200E84469 /* CAAnimation+TMUI.m in Sources */,
+				16C10ECD29754DA200E84469 /* UITextInputTraits+TMUI.m in Sources */,
+				16C10EF629754DA200E84469 /* NSDictionary+TMUI.m in Sources */,
+				16C10EDB29754DA200E84469 /* UINib+TMUI.m in Sources */,
+				16C10E6C29754D7C00E84469 /* TMUIExtensionsBinary.m in Sources */,
+				16C10EDC29754DA200E84469 /* UINavigationItem+TMUI.m in Sources */,
+				16C10EF129754DA200E84469 /* NSURL+TMUI.m in Sources */,
+				16C10EDF29754DA200E84469 /* UIColor+TMUI.m in Sources */,
+				16C10ED829754DA200E84469 /* UIBarItem+TMUI.m in Sources */,
+				16C10EE829754DA200E84469 /* UIButton+TMUI.m in Sources */,
+				16C10EE429754DA200E84469 /* UILabel+TMUIAttributesTextClick.m in Sources */,
+				16C10EE129754DA200E84469 /* UITableView+TMUI.m in Sources */,
+				16C10ED629754DA200E84469 /* UIView+TMUIBorder.m in Sources */,
+				16C10EF329754DA200E84469 /* NSArray+TMUI.m in Sources */,
+				16C10EEB29754DA200E84469 /* NSMutableDictionary+TMUI.m in Sources */,
+				16C10EEA29754DA200E84469 /* NSAttributedString+TMUI.m in Sources */,
+				16C10EDD29754DA200E84469 /* UITableViewHeaderFooterView+TMUI.m in Sources */,
+				16C10ED229754DA200E84469 /* UIView+TMUI.m in Sources */,
+				16C10EF429754DA200E84469 /* NSBundle+TMUI.m in Sources */,
+				16C10EE229754DA200E84469 /* UIControl+TMUI.m in Sources */,
+				16C10EE629754DA200E84469 /* UITraitCollection+TMUI.m in Sources */,
+				16C10EE329754DA200E84469 /* UIViewController+TMUI.m in Sources */,
+				16C10EEF29754DA200E84469 /* NSMethodSignature+TMUI.m in Sources */,
+				16C10ECF29754DA200E84469 /* UITableViewCell+TMUI.m in Sources */,
+				16C10EF229754DA200E84469 /* NSDate+TMUI.m in Sources */,
+				16C10EF729754DA200E84469 /* ALAssetsLibrary+TMUI.m in Sources */,
+				16C10EE029754DA200E84469 /* UIImage+TMUI.m in Sources */,
+				16C10ECC29754DA200E84469 /* UITabBarItem+TMUI.m in Sources */,
+				16C10EDE29754DA200E84469 /* UIScrollView+TMUI.m in Sources */,
+				16C10ED529754DA200E84469 /* UICollectionViewCell+TMUI.m in Sources */,
+				16C10ED329754DA200E84469 /* UITableView+TMUIGroup.m in Sources */,
+				16C10EEC29754DA200E84469 /* NSFileManager+TMUI.m in Sources */,
+				16C10EED29754DA200E84469 /* NSString+TMUI.m in Sources */,
+				16C10ED029754DA200E84469 /* UIBarButtonItem+TMUI.m in Sources */,
+				16C10ED429754DA200E84469 /* CALayer+TMUI.m in Sources */,
+				16C10ED729754DA200E84469 /* UIVisualEffectView+TMUI.m in Sources */,
+				16C10EEE29754DA200E84469 /* NSMutableArray+TMUI.m in Sources */,
+				16C10EDA29754DA200E84469 /* UITextField+TMUI.m in Sources */,
+				16C10ED129754DA200E84469 /* UITextView+TMUIPlaceholder.m in Sources */,
+				16C10EE929754DA200E84469 /* NSMutableParagraphStyle+TMUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,6 +799,81 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		16C10E6E29754D7C00E84469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AAF0BF86519B9ABEDA9AF4 /* Pods-TMUIExtensionsBinary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16C10E6F29754D7C00E84469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EFA587FC61F3694BE61847 /* Pods-TMUIExtensionsBinary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -570,6 +1028,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16C10E7029754D7C00E84469 /* Build configuration list for PBXNativeTarget "TMUIExtensionsBinary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C10E6E29754D7C00E84469 /* Debug */,
+				16C10E6F29754D7C00E84469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "TMUIExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
