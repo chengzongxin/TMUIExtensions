@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A1A85D2976306D006CEDA3 /* TMUIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EAC29754DA200E84469 /* TMUIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16C10E6C29754D7C00E84469 /* TMUIExtensionsBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E6B29754D7C00E84469 /* TMUIExtensionsBinary.m */; };
 		16C10E6D29754D7C00E84469 /* TMUIExtensionsBinary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C10E6A29754D7C00E84469 /* TMUIExtensionsBinary.h */; };
 		16C10ECC29754DA200E84469 /* UITabBarItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */; };
@@ -482,6 +483,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		16A1A85C29763065006CEDA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A1A85D2976306D006CEDA3 /* TMUIExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		16C10E6729754D7C00E84469 /* TMUIExtensionsBinary */ = {
 			isa = PBXNativeTarget;
@@ -491,6 +503,7 @@
 				16C10E6429754D7C00E84469 /* Sources */,
 				16C10E6529754D7C00E84469 /* Frameworks */,
 				16C10E6629754D7C00E84469 /* CopyFiles */,
+				16A1A85C29763065006CEDA3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -826,6 +839,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/TMUICore/TMUIKit";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -864,6 +878,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "${PODS_ROOT}/TMUICore/TMUIKit";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

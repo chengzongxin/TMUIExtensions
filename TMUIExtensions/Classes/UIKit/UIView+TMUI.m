@@ -7,14 +7,10 @@
 
 #import "UIView+TMUI.h"
 #import <objc/runtime.h>
-#import "TMUIWeakObjectContainer.h"
-#import "TMUICoreGraphicsDefines.h"
-#import "TMUIAssociatedPropertyDefines.h"
+#import <TMUICore/TMUICore.h>
 #import "UIImage+TMUI.h"
 #import "UIColor+TMUI.h"
 #import "NSArray+TMUI.h"
-#import "TMUIHelper.h"
-#import "TMUIRuntime.h"
 #import "CALayer+TMUI.h"
 #import "NSObject+TMUI.h"
 

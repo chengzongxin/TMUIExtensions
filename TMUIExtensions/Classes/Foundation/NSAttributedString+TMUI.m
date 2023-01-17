@@ -8,7 +8,7 @@
 #import "NSAttributedString+TMUI.h"
 #import "NSMutableParagraphStyle+TMUI.h"
 #import "NSString+TMUI.h"
-#import "TMUICore.h"
+#import <TMUICore/TMUICore.h>
 #import <CoreText/CoreText.h>
 
 @implementation NSAttributedString (TMUI)

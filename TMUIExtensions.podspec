@@ -43,21 +43,36 @@ Pod::Spec.new do |s|
   
   s.dependency 'TMUICore'
 
-  #引入TMUIExtensions中所有资源文件
-  s.source_files = 'TMUIExtensions/Classes/**/*'
-  #公开TMUIExtensions模块中的头文件
-  s.public_header_files = 'TMUIExtensions/Classes/*.h'
-  #依赖的三方库，pod库或者可以是自身的subspec
-  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
-
-  s.subspec 'Foundation' do |ss|
-    ss.source_files = 'TMUIExtensions/Classes/Foundation'
-  end
   
-  s.subspec 'UIKit' do |ss|
-    ss.source_files = 'TMUIExtensions/Classes/UIKit'
-    ss.dependency 'TMUIExtensions/Foundation'
-  end
+  if ENV['IS_SOURCE']
+      puts '-------------------------------------------------------------------'
+      puts 'Notice:TMUIExtensions is source now'
+      puts '-------------------------------------------------------------------'
+      
+        #引入TMUIExtensions中所有资源文件
+        s.source_files = 'TMUIExtensions/Classes/**/*'
+        #公开TMUIExtensions模块中的头文件
+        s.public_header_files = 'TMUIExtensions/Classes/*.h'
+        #依赖的三方库，pod库或者可以是自身的subspec
+        s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
+
+        s.subspec 'Foundation' do |ss|
+          ss.source_files = 'TMUIExtensions/Classes/Foundation'
+        end
+
+        s.subspec 'UIKit' do |ss|
+          ss.source_files = 'TMUIExtensions/Classes/UIKit'
+          ss.dependency 'TMUIExtensions/Foundation'
+        end
+        
+    else
+      puts '-------------------------------------------------------------------'
+      puts 'Notice:TMUIExtensions is binary now'
+      puts '-------------------------------------------------------------------'
+      s.source_files = 'Pod/Products/include/**'
+      s.public_header_files = 'Pod/Products/include/*.h'
+      s.ios.vendored_libraries = 'Pod/Products/lib/libTMUIExtensionsBinary.a'
+    end
 
 
 end
