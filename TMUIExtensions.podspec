@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
   旨在帮助快速高效的构建工程的基础设计元素，以及统一维护基础元素的版本兼容性处理，助于提高开发效率和项目质量。'
                        DESC
 
-  s.homepage         = 'https://github.com/chengzongxin/TMUIKit.git'
+  s.homepage         = 'https://github.com/chengzongxin/TMUIExtensions.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chengzongxin' => 'joe.cheng@corp.to8to.com' }
   # s.source           = { :git => './'}
-  s.source           = { :git => 'https://github.com/chengzongxin/TMUIKit.git', :tag => "v"+"#{s.version}" }
+  s.source           = { :git => 'https://github.com/chengzongxin/TMUIExtensions.git', :tag => "v"+"#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 #  s.ios.deployment_target = '9.0'
