@@ -54,6 +54,50 @@
 		16C10EF529754DA200E84469 /* NSTimer+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EC129754DA200E84469 /* NSTimer+TMUI.m */; };
 		16C10EF629754DA200E84469 /* NSDictionary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */; };
 		16C10EF729754DA200E84469 /* ALAssetsLibrary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C10ECB29754DA200E84469 /* ALAssetsLibrary+TMUI.m */; };
+		16DEEAC32976457000C386DC /* ALAssetsLibrary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EB929754DA200E84469 /* ALAssetsLibrary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC42976457200C386DC /* NSArray+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EB129754DA200E84469 /* NSArray+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC52976457500C386DC /* NSAttributedString+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EBE29754DA200E84469 /* NSAttributedString+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC62976457900C386DC /* NSBundle+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EAE29754DA200E84469 /* NSBundle+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC72976458400C386DC /* NSDate+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC829754DA200E84469 /* NSDate+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC82976458600C386DC /* NSDictionary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EB529754DA200E84469 /* NSDictionary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAC92976458A00C386DC /* NSFileManager+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC329754DA200E84469 /* NSFileManager+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACA2976458E00C386DC /* NSMethodSignature+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC529754DA200E84469 /* NSMethodSignature+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACB2976459100C386DC /* NSMutableArray+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC629754DA200E84469 /* NSMutableArray+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACC2976459600C386DC /* NSMutableDictionary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC429754DA200E84469 /* NSMutableDictionary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACD2976459A00C386DC /* NSMutableParagraphStyle+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EBF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACE2976459D00C386DC /* NSObject+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10ECA29754DA200E84469 /* NSObject+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEACF297645A000C386DC /* NSString+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC729754DA200E84469 /* NSString+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD0297645A400C386DC /* NSTimer+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EB429754DA200E84469 /* NSTimer+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD1297645A600C386DC /* NSURL+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EC929754DA200E84469 /* NSURL+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD2297645AD00C386DC /* CAAnimation+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA529754DA200E84469 /* CAAnimation+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD3297645B000C386DC /* CALayer+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA429754DA200E84469 /* CALayer+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD4297645BA00C386DC /* UIBarButtonItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9F29754DA200E84469 /* UIBarButtonItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD5297645BF00C386DC /* UIBarItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA729754DA200E84469 /* UIBarItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD6297645C300C386DC /* UIButton+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8829754DA100E84469 /* UIButton+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD7297645C600C386DC /* UICollectionView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8C29754DA100E84469 /* UICollectionView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD8297645CA00C386DC /* UICollectionViewCell+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA129754DA200E84469 /* UICollectionViewCell+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAD9297645CD00C386DC /* UIColor+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8029754DA100E84469 /* UIColor+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADA297645CF00C386DC /* UIControl+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7D29754DA100E84469 /* UIControl+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADB297645D600C386DC /* UIImage+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7E29754DA100E84469 /* UIImage+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADC297645DA00C386DC /* UILabel+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8929754DA100E84469 /* UILabel+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADD297645DC00C386DC /* UILabel+TMUIAttributesTextClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8429754DA100E84469 /* UILabel+TMUIAttributesTextClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADE297645DF00C386DC /* UINavigationItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7529754DA100E84469 /* UINavigationItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEADF297645E100C386DC /* UINib+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7929754DA100E84469 /* UINib+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE0297645E700C386DC /* UIScrollView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7429754DA100E84469 /* UIScrollView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE1297645EE00C386DC /* UITabBarItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9729754DA200E84469 /* UITabBarItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE2297645F500C386DC /* UITableView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7C29754DA100E84469 /* UITableView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE3297645FA00C386DC /* UITableView+TMUIGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9929754DA200E84469 /* UITableView+TMUIGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE4297645FD00C386DC /* UITableViewCell+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9029754DA100E84469 /* UITableViewCell+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE52976460100C386DC /* UITableViewHeaderFooterView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7629754DA100E84469 /* UITableViewHeaderFooterView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE62976460500C386DC /* UITextField+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E7A29754DA100E84469 /* UITextField+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE72976460800C386DC /* UITextInputTraits+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9529754DA200E84469 /* UITextInputTraits+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE82976460C00C386DC /* UITextView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9429754DA100E84469 /* UITextView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAE92976461400C386DC /* UITextView+TMUIPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9B29754DA200E84469 /* UITextView+TMUIPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAEA2976461800C386DC /* UITraitCollection+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8B29754DA100E84469 /* UITraitCollection+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAEB2976461B00C386DC /* UIView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E9829754DA200E84469 /* UIView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAEC2976461F00C386DC /* UIView+TMUIBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA029754DA200E84469 /* UIView+TMUIBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAED2976462200C386DC /* UIViewController+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10E8629754DA100E84469 /* UIViewController+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16DEEAEE2976462900C386DC /* UIVisualEffectView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C10EA929754DA200E84469 /* UIVisualEffectView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2452EA6B0B8DD9C0C043B150 /* Pods_TMUIExtensionsBinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C98846AB41D4AB87613B16C /* Pods_TMUIExtensionsBinary.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -274,64 +318,64 @@
 		16C10E7129754DA100E84469 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */,
-				16C10E7329754DA100E84469 /* UITextInputTraits+TMUI.m */,
-				16C10E7429754DA100E84469 /* UIScrollView+TMUI.h */,
-				16C10E7529754DA100E84469 /* UINavigationItem+TMUI.h */,
-				16C10E7629754DA100E84469 /* UITableViewHeaderFooterView+TMUI.h */,
-				16C10E7729754DA100E84469 /* UITextView+TMUI.m */,
-				16C10E7829754DA100E84469 /* UITableViewCell+TMUI.m */,
-				16C10E7929754DA100E84469 /* UINib+TMUI.h */,
-				16C10E7A29754DA100E84469 /* UITextField+TMUI.h */,
-				16C10E7B29754DA100E84469 /* UIBarButtonItem+TMUI.m */,
-				16C10E7C29754DA100E84469 /* UITableView+TMUI.h */,
+				16C10EA529754DA200E84469 /* CAAnimation+TMUI.h */,
+				16C10EA429754DA200E84469 /* CALayer+TMUI.h */,
+				16C10E9F29754DA200E84469 /* UIBarButtonItem+TMUI.h */,
+				16C10EA729754DA200E84469 /* UIBarItem+TMUI.h */,
+				16C10E8829754DA100E84469 /* UIButton+TMUI.h */,
+				16C10E8C29754DA100E84469 /* UICollectionView+TMUI.h */,
+				16C10EA129754DA200E84469 /* UICollectionViewCell+TMUI.h */,
+				16C10E8029754DA100E84469 /* UIColor+TMUI.h */,
 				16C10E7D29754DA100E84469 /* UIControl+TMUI.h */,
 				16C10E7E29754DA100E84469 /* UIImage+TMUI.h */,
-				16C10E7F29754DA100E84469 /* UITextView+TMUIPlaceholder.m */,
-				16C10E8029754DA100E84469 /* UIColor+TMUI.h */,
-				16C10E8129754DA100E84469 /* UIView+TMUI.m */,
-				16C10E8229754DA100E84469 /* UITableView+TMUIGroup.m */,
-				16C10E8329754DA100E84469 /* CALayer+TMUI.m */,
-				16C10E8429754DA100E84469 /* UILabel+TMUIAttributesTextClick.h */,
-				16C10E8529754DA100E84469 /* UICollectionViewCell+TMUI.m */,
-				16C10E8629754DA100E84469 /* UIViewController+TMUI.h */,
-				16C10E8729754DA100E84469 /* UIView+TMUIBorder.m */,
-				16C10E8829754DA100E84469 /* UIButton+TMUI.h */,
 				16C10E8929754DA100E84469 /* UILabel+TMUI.h */,
-				16C10E8A29754DA100E84469 /* UIVisualEffectView+TMUI.m */,
-				16C10E8B29754DA100E84469 /* UITraitCollection+TMUI.h */,
-				16C10E8C29754DA100E84469 /* UICollectionView+TMUI.h */,
-				16C10E8D29754DA100E84469 /* UIBarItem+TMUI.m */,
-				16C10E8E29754DA100E84469 /* CAAnimation+TMUI.m */,
-				16C10E8F29754DA100E84469 /* UITextField+TMUI.m */,
-				16C10E9029754DA100E84469 /* UITableViewCell+TMUI.h */,
-				16C10E9129754DA100E84469 /* UINib+TMUI.m */,
-				16C10E9229754DA100E84469 /* UINavigationItem+TMUI.m */,
-				16C10E9329754DA100E84469 /* UITableViewHeaderFooterView+TMUI.m */,
-				16C10E9429754DA100E84469 /* UITextView+TMUI.h */,
-				16C10E9529754DA200E84469 /* UITextInputTraits+TMUI.h */,
-				16C10E9629754DA200E84469 /* UIScrollView+TMUI.m */,
+				16C10E8429754DA100E84469 /* UILabel+TMUIAttributesTextClick.h */,
+				16C10E7529754DA100E84469 /* UINavigationItem+TMUI.h */,
+				16C10E7929754DA100E84469 /* UINib+TMUI.h */,
+				16C10E7429754DA100E84469 /* UIScrollView+TMUI.h */,
 				16C10E9729754DA200E84469 /* UITabBarItem+TMUI.h */,
-				16C10E9829754DA200E84469 /* UIView+TMUI.h */,
+				16C10E7C29754DA100E84469 /* UITableView+TMUI.h */,
 				16C10E9929754DA200E84469 /* UITableView+TMUIGroup.h */,
-				16C10E9A29754DA200E84469 /* UIColor+TMUI.m */,
+				16C10E9029754DA100E84469 /* UITableViewCell+TMUI.h */,
+				16C10E7629754DA100E84469 /* UITableViewHeaderFooterView+TMUI.h */,
+				16C10E7A29754DA100E84469 /* UITextField+TMUI.h */,
+				16C10E9529754DA200E84469 /* UITextInputTraits+TMUI.h */,
+				16C10E9429754DA100E84469 /* UITextView+TMUI.h */,
 				16C10E9B29754DA200E84469 /* UITextView+TMUIPlaceholder.h */,
-				16C10E9C29754DA200E84469 /* UIImage+TMUI.m */,
-				16C10E9D29754DA200E84469 /* UITableView+TMUI.m */,
-				16C10E9E29754DA200E84469 /* UIControl+TMUI.m */,
-				16C10E9F29754DA200E84469 /* UIBarButtonItem+TMUI.h */,
+				16C10E8B29754DA100E84469 /* UITraitCollection+TMUI.h */,
+				16C10E9829754DA200E84469 /* UIView+TMUI.h */,
 				16C10EA029754DA200E84469 /* UIView+TMUIBorder.h */,
-				16C10EA129754DA200E84469 /* UICollectionViewCell+TMUI.h */,
-				16C10EA229754DA200E84469 /* UIViewController+TMUI.m */,
-				16C10EA329754DA200E84469 /* UILabel+TMUIAttributesTextClick.m */,
-				16C10EA429754DA200E84469 /* CALayer+TMUI.h */,
-				16C10EA529754DA200E84469 /* CAAnimation+TMUI.h */,
-				16C10EA629754DA200E84469 /* UICollectionView+TMUI.m */,
-				16C10EA729754DA200E84469 /* UIBarItem+TMUI.h */,
-				16C10EA829754DA200E84469 /* UITraitCollection+TMUI.m */,
+				16C10E8629754DA100E84469 /* UIViewController+TMUI.h */,
 				16C10EA929754DA200E84469 /* UIVisualEffectView+TMUI.h */,
-				16C10EAA29754DA200E84469 /* UILabel+TMUI.m */,
+				16C10E8E29754DA100E84469 /* CAAnimation+TMUI.m */,
+				16C10E8329754DA100E84469 /* CALayer+TMUI.m */,
+				16C10E7B29754DA100E84469 /* UIBarButtonItem+TMUI.m */,
+				16C10E8D29754DA100E84469 /* UIBarItem+TMUI.m */,
 				16C10EAB29754DA200E84469 /* UIButton+TMUI.m */,
+				16C10EA629754DA200E84469 /* UICollectionView+TMUI.m */,
+				16C10E8529754DA100E84469 /* UICollectionViewCell+TMUI.m */,
+				16C10E9A29754DA200E84469 /* UIColor+TMUI.m */,
+				16C10E9E29754DA200E84469 /* UIControl+TMUI.m */,
+				16C10E9C29754DA200E84469 /* UIImage+TMUI.m */,
+				16C10EAA29754DA200E84469 /* UILabel+TMUI.m */,
+				16C10EA329754DA200E84469 /* UILabel+TMUIAttributesTextClick.m */,
+				16C10E9229754DA100E84469 /* UINavigationItem+TMUI.m */,
+				16C10E9129754DA100E84469 /* UINib+TMUI.m */,
+				16C10E9629754DA200E84469 /* UIScrollView+TMUI.m */,
+				16C10E7229754DA100E84469 /* UITabBarItem+TMUI.m */,
+				16C10E9D29754DA200E84469 /* UITableView+TMUI.m */,
+				16C10E8229754DA100E84469 /* UITableView+TMUIGroup.m */,
+				16C10E7829754DA100E84469 /* UITableViewCell+TMUI.m */,
+				16C10E9329754DA100E84469 /* UITableViewHeaderFooterView+TMUI.m */,
+				16C10E8F29754DA100E84469 /* UITextField+TMUI.m */,
+				16C10E7329754DA100E84469 /* UITextInputTraits+TMUI.m */,
+				16C10E7729754DA100E84469 /* UITextView+TMUI.m */,
+				16C10E7F29754DA100E84469 /* UITextView+TMUIPlaceholder.m */,
+				16C10EA829754DA200E84469 /* UITraitCollection+TMUI.m */,
+				16C10E8129754DA100E84469 /* UIView+TMUI.m */,
+				16C10E8729754DA100E84469 /* UIView+TMUIBorder.m */,
+				16C10EA229754DA200E84469 /* UIViewController+TMUI.m */,
+				16C10E8A29754DA100E84469 /* UIVisualEffectView+TMUI.m */,
 			);
 			name = UIKit;
 			path = ../../TMUIExtensions/Classes/UIKit;
@@ -340,36 +384,36 @@
 		16C10EAD29754DA200E84469 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				16C10EAE29754DA200E84469 /* NSBundle+TMUI.h */,
-				16C10EAF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.m */,
-				16C10EB029754DA200E84469 /* NSAttributedString+TMUI.m */,
-				16C10EB129754DA200E84469 /* NSArray+TMUI.h */,
-				16C10EB229754DA200E84469 /* NSMutableDictionary+TMUI.m */,
-				16C10EB329754DA200E84469 /* NSFileManager+TMUI.m */,
-				16C10EB429754DA200E84469 /* NSTimer+TMUI.h */,
-				16C10EB529754DA200E84469 /* NSDictionary+TMUI.h */,
-				16C10EB629754DA200E84469 /* NSString+TMUI.m */,
-				16C10EB729754DA200E84469 /* NSMutableArray+TMUI.m */,
-				16C10EB829754DA200E84469 /* NSMethodSignature+TMUI.m */,
 				16C10EB929754DA200E84469 /* ALAssetsLibrary+TMUI.h */,
-				16C10EBA29754DA200E84469 /* NSObject+TMUI.m */,
-				16C10EBB29754DA200E84469 /* NSURL+TMUI.m */,
-				16C10EBC29754DA200E84469 /* NSDate+TMUI.m */,
-				16C10EBD29754DA200E84469 /* NSArray+TMUI.m */,
+				16C10EB129754DA200E84469 /* NSArray+TMUI.h */,
 				16C10EBE29754DA200E84469 /* NSAttributedString+TMUI.h */,
-				16C10EBF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.h */,
-				16C10EC029754DA200E84469 /* NSBundle+TMUI.m */,
-				16C10EC129754DA200E84469 /* NSTimer+TMUI.m */,
-				16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */,
+				16C10EAE29754DA200E84469 /* NSBundle+TMUI.h */,
+				16C10EC829754DA200E84469 /* NSDate+TMUI.h */,
+				16C10EB529754DA200E84469 /* NSDictionary+TMUI.h */,
 				16C10EC329754DA200E84469 /* NSFileManager+TMUI.h */,
-				16C10EC429754DA200E84469 /* NSMutableDictionary+TMUI.h */,
 				16C10EC529754DA200E84469 /* NSMethodSignature+TMUI.h */,
 				16C10EC629754DA200E84469 /* NSMutableArray+TMUI.h */,
-				16C10EC729754DA200E84469 /* NSString+TMUI.h */,
-				16C10EC829754DA200E84469 /* NSDate+TMUI.h */,
-				16C10EC929754DA200E84469 /* NSURL+TMUI.h */,
+				16C10EC429754DA200E84469 /* NSMutableDictionary+TMUI.h */,
+				16C10EBF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.h */,
 				16C10ECA29754DA200E84469 /* NSObject+TMUI.h */,
+				16C10EC729754DA200E84469 /* NSString+TMUI.h */,
+				16C10EB429754DA200E84469 /* NSTimer+TMUI.h */,
+				16C10EC929754DA200E84469 /* NSURL+TMUI.h */,
 				16C10ECB29754DA200E84469 /* ALAssetsLibrary+TMUI.m */,
+				16C10EBD29754DA200E84469 /* NSArray+TMUI.m */,
+				16C10EB029754DA200E84469 /* NSAttributedString+TMUI.m */,
+				16C10EC029754DA200E84469 /* NSBundle+TMUI.m */,
+				16C10EBC29754DA200E84469 /* NSDate+TMUI.m */,
+				16C10EC229754DA200E84469 /* NSDictionary+TMUI.m */,
+				16C10EB329754DA200E84469 /* NSFileManager+TMUI.m */,
+				16C10EB829754DA200E84469 /* NSMethodSignature+TMUI.m */,
+				16C10EB729754DA200E84469 /* NSMutableArray+TMUI.m */,
+				16C10EB229754DA200E84469 /* NSMutableDictionary+TMUI.m */,
+				16C10EAF29754DA200E84469 /* NSMutableParagraphStyle+TMUI.m */,
+				16C10EBA29754DA200E84469 /* NSObject+TMUI.m */,
+				16C10EB629754DA200E84469 /* NSString+TMUI.m */,
+				16C10EC129754DA200E84469 /* NSTimer+TMUI.m */,
+				16C10EBB29754DA200E84469 /* NSURL+TMUI.m */,
 			);
 			name = Foundation;
 			path = ../../TMUIExtensions/Classes/Foundation;
@@ -489,6 +533,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A1A85D2976306D006CEDA3 /* TMUIExtensions.h in Headers */,
+				16DEEAC32976457000C386DC /* ALAssetsLibrary+TMUI.h in Headers */,
+				16DEEAC42976457200C386DC /* NSArray+TMUI.h in Headers */,
+				16DEEAC52976457500C386DC /* NSAttributedString+TMUI.h in Headers */,
+				16DEEAC62976457900C386DC /* NSBundle+TMUI.h in Headers */,
+				16DEEAC72976458400C386DC /* NSDate+TMUI.h in Headers */,
+				16DEEAC82976458600C386DC /* NSDictionary+TMUI.h in Headers */,
+				16DEEAC92976458A00C386DC /* NSFileManager+TMUI.h in Headers */,
+				16DEEACA2976458E00C386DC /* NSMethodSignature+TMUI.h in Headers */,
+				16DEEACB2976459100C386DC /* NSMutableArray+TMUI.h in Headers */,
+				16DEEACC2976459600C386DC /* NSMutableDictionary+TMUI.h in Headers */,
+				16DEEACD2976459A00C386DC /* NSMutableParagraphStyle+TMUI.h in Headers */,
+				16DEEACE2976459D00C386DC /* NSObject+TMUI.h in Headers */,
+				16DEEACF297645A000C386DC /* NSString+TMUI.h in Headers */,
+				16DEEAD0297645A400C386DC /* NSTimer+TMUI.h in Headers */,
+				16DEEAD1297645A600C386DC /* NSURL+TMUI.h in Headers */,
+				16DEEAD2297645AD00C386DC /* CAAnimation+TMUI.h in Headers */,
+				16DEEAD3297645B000C386DC /* CALayer+TMUI.h in Headers */,
+				16DEEAD4297645BA00C386DC /* UIBarButtonItem+TMUI.h in Headers */,
+				16DEEAD5297645BF00C386DC /* UIBarItem+TMUI.h in Headers */,
+				16DEEAD6297645C300C386DC /* UIButton+TMUI.h in Headers */,
+				16DEEAD7297645C600C386DC /* UICollectionView+TMUI.h in Headers */,
+				16DEEAD8297645CA00C386DC /* UICollectionViewCell+TMUI.h in Headers */,
+				16DEEAD9297645CD00C386DC /* UIColor+TMUI.h in Headers */,
+				16DEEADA297645CF00C386DC /* UIControl+TMUI.h in Headers */,
+				16DEEADB297645D600C386DC /* UIImage+TMUI.h in Headers */,
+				16DEEADC297645DA00C386DC /* UILabel+TMUI.h in Headers */,
+				16DEEADD297645DC00C386DC /* UILabel+TMUIAttributesTextClick.h in Headers */,
+				16DEEADE297645DF00C386DC /* UINavigationItem+TMUI.h in Headers */,
+				16DEEADF297645E100C386DC /* UINib+TMUI.h in Headers */,
+				16DEEAE0297645E700C386DC /* UIScrollView+TMUI.h in Headers */,
+				16DEEAE1297645EE00C386DC /* UITabBarItem+TMUI.h in Headers */,
+				16DEEAE2297645F500C386DC /* UITableView+TMUI.h in Headers */,
+				16DEEAE3297645FA00C386DC /* UITableView+TMUIGroup.h in Headers */,
+				16DEEAE4297645FD00C386DC /* UITableViewCell+TMUI.h in Headers */,
+				16DEEAE52976460100C386DC /* UITableViewHeaderFooterView+TMUI.h in Headers */,
+				16DEEAE62976460500C386DC /* UITextField+TMUI.h in Headers */,
+				16DEEAE72976460800C386DC /* UITextInputTraits+TMUI.h in Headers */,
+				16DEEAE82976460C00C386DC /* UITextView+TMUI.h in Headers */,
+				16DEEAE92976461400C386DC /* UITextView+TMUIPlaceholder.h in Headers */,
+				16DEEAEA2976461800C386DC /* UITraitCollection+TMUI.h in Headers */,
+				16DEEAEB2976461B00C386DC /* UIView+TMUI.h in Headers */,
+				16DEEAEC2976461F00C386DC /* UIView+TMUIBorder.h in Headers */,
+				16DEEAED2976462200C386DC /* UIViewController+TMUI.h in Headers */,
+				16DEEAEE2976462900C386DC /* UIVisualEffectView+TMUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
