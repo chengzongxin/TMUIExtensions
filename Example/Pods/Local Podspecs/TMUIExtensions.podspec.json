@@ -24,26 +24,9 @@
 
     ]
   },
-  "source_files": "TMUIExtensions/Classes/**/*",
-  "public_header_files": "TMUIExtensions/Classes/*.h",
-  "frameworks": [
-    "Foundation",
-    "UIKit",
-    "CoreGraphics"
-  ],
-  "subspecs": [
-    {
-      "name": "Foundation",
-      "source_files": "TMUIExtensions/Classes/Foundation"
-    },
-    {
-      "name": "UIKit",
-      "source_files": "TMUIExtensions/Classes/UIKit",
-      "dependencies": {
-        "TMUIExtensions/Foundation": [
-
-        ]
-      }
-    }
-  ]
+  "source_files": "Pod/Products/include/**",
+  "public_header_files": "Pod/Products/include/*.h",
+  "ios": {
+    "vendored_libraries": "Pod/Products/lib/libTMUIExtensionsBinary.a"
+  }
 }

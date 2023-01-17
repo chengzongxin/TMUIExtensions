@@ -2,13 +2,6 @@ PODS:
   - TMUICore (2.0.6)
   - TMUIExtensions (2.0.6):
     - TMUICore
-    - TMUIExtensions/Foundation (= 2.0.6)
-    - TMUIExtensions/UIKit (= 2.0.6)
-  - TMUIExtensions/Foundation (2.0.6):
-    - TMUICore
-  - TMUIExtensions/UIKit (2.0.6):
-    - TMUICore
-    - TMUIExtensions/Foundation
 
 DEPENDENCIES:
   - TMUIExtensions (from `../`)
@@ -23,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   TMUICore: 81ad1b6b4269bce1b5c5d532d62daef800536fa0
-  TMUIExtensions: 7dc5bde5d7fa135653a9d4da53540fe48502e28a
+  TMUIExtensions: d4683346c46d53f09449264661c42c6102d33e1e
 
 PODFILE CHECKSUM: 0d06e86a0b12a18a8e9af0e32d43e9690cd03270
 

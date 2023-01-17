@@ -6,160 +6,78 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		33F59A555FBD561669F44E365E3A0307 /* TMUIExtensions */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B33470AA5C2AA8522C8CD46B7D9A54B /* Build configuration list for PBXAggregateTarget "TMUIExtensions" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A62CF5430D54DE3C303B699121DECEE5 /* PBXTargetDependency */,
+			);
+			name = TMUIExtensions;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		02ECF4D8C22F296E2E1992F1147821CC /* ALAssetsLibrary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E25B765FB81E3FD665902819F915EA2E /* ALAssetsLibrary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04352A031E18A8A5797FCEA6824A51A7 /* NSMethodSignature+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 67834E9B96C83F82CF73A6D3D70CD220 /* NSMethodSignature+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08A419379D1EBEE2A4C9D31F1399E2EB /* UIControl+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 811346AE75BC9027282ED0753907E679 /* UIControl+TMUI.m */; };
-		08B235350F85A77693C369F2DB7FBC18 /* TMUIExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA053B530C59B87B3E05195D18B9A5C /* TMUIExtensions-dummy.m */; };
-		0A1B2EFD55CA7B7E1BBFE7BC3AE72F8F /* NSMutableDictionary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 370FB77E2391F006F9DB69A0C2CB8F31 /* NSMutableDictionary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F54D7C239A64665BFC9464987F044FA /* UIView+TMUIBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C231A26A40C537F4FBFCC8D1C870E9A /* UIView+TMUIBorder.m */; };
-		14ED68E3B7BAAFCB8A72B015A2B3AA8A /* UITextInputTraits+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD11881DD81A4AED8D0FE53DD06B88 /* UITextInputTraits+TMUI.m */; };
-		15D745E411C9C5B8CF6AD38B3581BFDE /* NSURL+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 310AF30791EAB627E7938A10F343D3FA /* NSURL+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16975EA716FC4171A1BF0E14F03B415E /* UIBarItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0EE4F47672CB0A40CF4049AD7CB34E /* UIBarItem+TMUI.m */; };
-		170BA5F31A8BEC3790526292C4B9BB2E /* UITextField+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD70C228F8AB428A3DF950F9F4AA0E5 /* UITextField+TMUI.m */; };
-		18A6E3213B4D8FC233B325872F4DAEB8 /* NSArray+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A23657B6CC4B8BEB96932F3FF76408 /* NSArray+TMUI.m */; };
-		1B04FD2DF43D136AF0EEC731A6E8F8E8 /* UIScrollView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E886D1C391066CF094AA3B8B9593B99C /* UIScrollView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D76E3D13ED4825DE3F9EB1ED7A231F6 /* UITableView+TMUIGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C45507A4F4360F563498EE1CFABC41B /* UITableView+TMUIGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D7B54879533892B8ABFB6CD0B2FE94E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC300295314A921EFDDB7F252BE528E /* CoreGraphics.framework */; };
-		1F92A04993D2A23176C97EBD5C7F05FB /* NSMutableParagraphStyle+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6034F3F1DA92EBE377D5348BFB01B0 /* NSMutableParagraphStyle+TMUI.m */; };
-		212402A33E63281E85D0ECEAFC1F1C2B /* CAAnimation+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDDA902D148AAF815D05B4CE3E8332F /* CAAnimation+TMUI.m */; };
-		25699A1D2E23950C69070BA707AE533C /* UILabel+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0040DEC249EF0905B123CF6E2E02E /* UILabel+TMUI.m */; };
-		2A37C2D93B2F7ED5AE9154C74AB39188 /* UITextView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 604066C37E17B2EEC1E36AC61324A1A7 /* UITextView+TMUI.m */; };
-		2B07C63522309105409B9E0BC1721FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278C8986BEC8AC1ED1FA44F58014DCA3 /* UIKit.framework */; };
+		2B07C63522309105409B9E0BC1721FAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */; };
 		302FBAFB96C6042F49465F6E89FEE08B /* TMUICoreGraphicsDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = ED182A45DD600B6D38EE2FAF7ACFD844 /* TMUICoreGraphicsDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3153C0ADDA035B82D34A9B8935272C7D /* UINib+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C8815FF748414EC47ABCE7DD7593DDC0 /* UINib+TMUI.m */; };
-		32131C8998657CD31ACFA88D274FB432 /* NSMutableParagraphStyle+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D74B115F0BA0FF36AA904CDA6F60C9 /* NSMutableParagraphStyle+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		362466792AF3D12F5153EBFD4AEE4573 /* NSBundle+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BFAE6ED519E3374BACFBB53FB50B85 /* NSBundle+TMUI.m */; };
-		367A7843604DF77A7ED58D55CC4A0A00 /* UITextView+TMUIPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D389847FE0F5E6EA151A7C84373914A /* UITextView+TMUIPlaceholder.m */; };
 		3A5BB57CD4AEA7A1E8A3B467722F4429 /* TMUIWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF93C3B11AE1481159B85ED305351C3 /* TMUIWeakObjectContainer.m */; };
-		3AA5A60CB81E99C6FEEF4E224C7726D7 /* UIControl+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E23252FDAF481654732760B75E36DF /* UIControl+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FAEEF6A14795D51074D19816307CB37 /* UINavigationItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C4C417F9D819D28BA1A1DFFACBD0FA /* UINavigationItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FBA38AFB834EF4D2B115440924E0A6A /* NSMutableDictionary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB9D2E81349F393A23106D4E057FB64 /* NSMutableDictionary+TMUI.m */; };
-		4174A46A851DACAB93C2E478EA724514 /* UILabel+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CD4F99B71BABE8907322E09AB01F81 /* UILabel+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4192F432DE275A93BC744C2D0AE7F31E /* UITextView+TMUIPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD450EFC500697102D0EC621651FA34 /* UITextView+TMUIPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48AFAF57889E4FBE52B87D1B49FE2638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */; };
+		48AFAF57889E4FBE52B87D1B49FE2638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
 		494496ED92482E2C1A46FF127864A3D0 /* Pods-TMUIExtensionsBinary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6B8BD81C112550D12406C9364D220A /* Pods-TMUIExtensionsBinary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ACB90C42005987011D2EC2173A8FE2D /* NSString+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2151835E90AD9B87FAE488F56E4C89EB /* NSString+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C71C11C19D4018FB57EA94A40C1D204 /* NSMutableArray+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAD81CC3F296531592963F0FBAB136B /* NSMutableArray+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5019114486D7B3D814F2E43027EAFCD4 /* NSBundle+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C02FB00F1E6E0C0A044B36A8A08D194 /* NSBundle+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		505DDA3C8F5FA77BC5BDCC414CDC101A /* UITraitCollection+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9704D791D22B43A20204B6B538F5FE4E /* UITraitCollection+TMUI.m */; };
-		51E350E5D1A25B903D1BAA5A94F28529 /* UIView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 125F281CD9B445B7E8586EC0A29CEAFA /* UIView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E61DFBD46D0E05E65936E25A5094C5 /* UITabBarItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8F3E38F98D1886E97B83A29BC8803C /* UITabBarItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5250525954606E877D808A975B318D30 /* UITableViewHeaderFooterView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AC2527EFC414A0F34391017E6D5F4B /* UITableViewHeaderFooterView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		575ADB5709B033E0140A49581B7E7ECE /* UILabel+TMUIAttributesTextClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4C4D0E044EA8CAE7A08900B82B1452 /* UILabel+TMUIAttributesTextClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57723D4D6BA4955CF3F55245DED45A75 /* UITabBarItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE101B6AA31DC289039A38B33865CF9 /* UITabBarItem+TMUI.m */; };
-		582EC5FD07F7AC5D37376063D3D75041 /* UITableViewCell+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF3D41E85DA6CBFAC860F5A3067C66A /* UITableViewCell+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5881826ECABC2F5F29684BFAFE43878A /* NSAttributedString+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEE5833C7E5184F042F1AE8254BD841 /* NSAttributedString+TMUI.m */; };
 		5B66C24369F93C7AB39AD1D992854ED2 /* TMUIAssociatedPropertyDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 347B736820DB1B23FB60DC3328B20E5B /* TMUIAssociatedPropertyDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7F67D74288935DB1A0CBFEB5F14494 /* NSFileManager+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98D8167E840FD3F36D3FD6A766F05B /* NSFileManager+TMUI.m */; };
-		5BBBF0D839C70CB50B67728C84E1E613 /* UINib+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 201A7ECEF99ABC16D8DF24923D1D7811 /* UINib+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E695B4DC47EACB6EB6D941BFAFBCD57 /* TMUIConfigurationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA71ED2E012BDEAC827EE8DA281D42E /* TMUIConfigurationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A83E046EAE4E3A4302C142D1EA096A /* UICollectionViewCell+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F6068F165A77CDEFDE6968C9C9AEFE /* UICollectionViewCell+TMUI.m */; };
-		61AF5AE8403BA262D3837E2BA6DA033A /* UITraitCollection+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C448EB9D63E329CC7D8CF9379ED3BD /* UITraitCollection+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		652FCCE43B9E70FC35146B84BF424E2F /* NSObject+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2635CC78A919AABAFF2E27E19591798E /* NSObject+TMUI.m */; };
-		65B77EDDD70BDBDE95D20C428D58CF8A /* UICollectionView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2BE93E3D15C7BF45E5372AFC1847E /* UICollectionView+TMUI.m */; };
-		66C934887B10AD83CEB6FC49DB1BD1FD /* TMUIExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 577DF0E80FC7731554A154ADC443AE6B /* TMUIExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67C8AB7546B16231E9CE2430CCA76756 /* TMUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CD63CF0CBDF170ABB381E22FC07FA9 /* TMUIHelper.m */; };
-		69852CC6EDA157090B3D6BB0BC913393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */; };
-		6E4A13DAEA3FA2F26ACEC3E31B670126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC300295314A921EFDDB7F252BE528E /* CoreGraphics.framework */; };
+		69852CC6EDA157090B3D6BB0BC913393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		6E4A13DAEA3FA2F26ACEC3E31B670126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */; };
 		6EA7ED71067B9C4CB73213565FC012E1 /* TMUIRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = CE66F12047B126FA59EB2A93A3B32857 /* TMUIRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		719C19A3C59D69FC305151D8865C076C /* UILabel+TMUIAttributesTextClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D89EA4A54486B6C1791C013CE5CFB07 /* UILabel+TMUIAttributesTextClick.m */; };
-		71AC1DA2FAE024A767A1D425FB13CEB6 /* UITableView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B80F380C1DDC97BAD94A5638CCD15D42 /* UITableView+TMUI.m */; };
-		739E33536F9352D9B85EC2D9E45ABB1E /* NSDate+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 31651901992B371C7FADF78ED19EB9E7 /* NSDate+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7612B7D6F64E7A012214BC2D56616EEA /* UINavigationItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 248A03E7C8401129DA861C5EE08448D1 /* UINavigationItem+TMUI.m */; };
-		771DCC385752290B4E44A88CF64044CB /* NSURL+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B6709D7C379FCAB2EF8C12EE66AD1A /* NSURL+TMUI.m */; };
-		7725A429330E79833BFED72ABB63D9F1 /* NSString+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F7B6D1FBD5F99242D9F021AAC22C6C /* NSString+TMUI.m */; };
 		7A85D48A939ED18FA8E64740542D8469 /* TMUICore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB1399494A5C21E6217BB73A8FB071C /* TMUICore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CD0350DFA95CD72423DD7A2E87A4C7F /* UITextView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD3C4F1D22DF9DC7C11981D0703DB98 /* UITextView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		807FF7A39F3160ABC4108685492065BA /* CALayer+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 886AADE6268C68A542C73E99DA649891 /* CALayer+TMUI.m */; };
-		8464917E27F79B1229D4E16422290A0D /* TMUICore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00E6CFA5CAEB0AC9312CF59AECF61E /* TMUICore.framework */; };
-		851CFD6893BACFC27B7713FFC8513E97 /* UIBarButtonItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A71619651A6519BCE923EB237846D37 /* UIBarButtonItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A503F16C5D0FCF9504D326A1B9FE04A /* UIVisualEffectView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D6C92739269310539C9321B77B193 /* UIVisualEffectView+TMUI.m */; };
-		8B030C863A1624A3A1C176685EE87B00 /* UITableViewHeaderFooterView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BCB6F4DFFE0608319D6CF59A5A972 /* UITableViewHeaderFooterView+TMUI.m */; };
-		8B6031DF517F5A295FA3D90FA5D8D556 /* CALayer+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 61036AA09164F143BC53AC81C44A063D /* CALayer+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BB28B67506D8D55A54BF56526E6A5D5 /* UITableViewCell+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB22B3C5932AEDF8492ED6E07772949 /* UITableViewCell+TMUI.m */; };
-		8BD8183A89A307BD97C9FB0CFBFF4D24 /* UIBarButtonItem+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B14A9CC3601F067CA1EA5A6B5EB5E61 /* UIBarButtonItem+TMUI.m */; };
-		8BF12B6239B69E72738C4CE6E47AEF4E /* UITextInputTraits+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 416DB67921F2F11071F28D823A45332B /* UITextInputTraits+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4C3302093645140E66228E4786E901 /* TMUIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 446622306DA8BA44C71D5B930E9B0C66 /* TMUIRuntime.m */; };
-		9538540907B9EA49D6582B77D0F1C5B6 /* NSMethodSignature+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D7328526162B93AC004222DA20118446 /* NSMethodSignature+TMUI.m */; };
-		9A7E024FF1ABB5E1C31008EB0376A659 /* NSDate+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8F909C5F210985319EEBE4CC84E85 /* NSDate+TMUI.m */; };
-		9BDEB500C61BAAB2FA90DA322347EFD8 /* ALAssetsLibrary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DF35B5CDF21120604F52E24AB43E2B /* ALAssetsLibrary+TMUI.m */; };
 		9EFE9C347D6EB38A869FF5BD314298A8 /* Pods-TMUIExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8905711C062BC1BAB9CBC00C3EEF3DC /* Pods-TMUIExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F92AE8DEF138E4F88D29F05B5381372 /* UIImage+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4AA7956FF55C600C6F33F003D0E19 /* UIImage+TMUI.m */; };
-		A3A494BFB864C6F94C46462B1AFFDCDA /* UIView+TMUIBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 25ACE13D7D6321335C1D05AC6D5DB3C5 /* UIView+TMUIBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4FBC5989B0B1F433B3D810B0C6B050F /* UIView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150D079E47E131A80A4B3612A1548B6 /* UIView+TMUI.m */; };
-		A6DF3F307D5CB04CF2B32E2BD1E931D6 /* UIVisualEffectView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2E6965EF48E33FC7424BE872C1D16F /* UIVisualEffectView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A90C36538D077C6FA7ED2C685C9F3125 /* CAAnimation+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC442027C56ACD144ACBB7CF75E5EF /* CAAnimation+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAFBC5F8B561EF109A3AF86217A4BD9A /* UIButton+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CC619C47142CCF7E06553E6A3FF70612 /* UIButton+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB38B262D3BD49AACB032E4848A5A84D /* UIViewController+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6147D0F88FC14F446598FAF7A82067 /* UIViewController+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE2CC9951D2342A55E99118BF65742DA /* TMUIExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA98A54788C532C82467CBC0C9BF2E6 /* TMUIExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF8B52159F5BCF71F6DF0C5DDB52D370 /* UIBarItem+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A146F79FD9E6177DF16DEE2D7E72A1 /* UIBarItem+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0D0C63C85598ADFC92478C7A6C9D532 /* Pods-TMUIExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAE6700AE281944DEA527A25E3FFA7 /* Pods-TMUIExtensions_Example-dummy.m */; };
 		B2365516CD43F6ABB39FE84D1AD87BD0 /* TMUIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF79A7B533561975C95C99EC0514DF2 /* TMUIConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAB49A40E0A9BA87FA8B3E3F0D77BFAC /* UIImage+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 22305FEB1F3E24B92CA78749B0E4FB7D /* UIImage+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC30EFAD108AD3C6CB39FE14480C3375 /* NSMutableArray+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3570DD9B30733825C8BEE330F1197AE0 /* NSMutableArray+TMUI.m */; };
 		C0E28AB8004806B07A1837317C2F3D22 /* Pods-TMUIExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636FFA8BA2319DB92D629394B5F84215 /* Pods-TMUIExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0F450064A2E6F86D1EA5EE31844C960 /* UIViewController+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C43267341F48B4923AB853DA50240D /* UIViewController+TMUI.m */; };
-		C1E6924DA42531BD032B03BFCAEF858A /* NSFileManager+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6373B558ED0869EFA9E2C4B7B7B3CC69 /* NSFileManager+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2349433E104777A552A4B98894D44D1 /* NSTimer+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE6979E94F54F367606E5C2BC62A85 /* NSTimer+TMUI.m */; };
-		C6960AB5DD82006DE6FD6D5D8A10F6E7 /* UIColor+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FF807A1553AE512FE84279D4970E65C2 /* UIColor+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7298CBA33F22F3722722C767A847289 /* NSObject+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E6F77974E747EB1CA3B97C2F085468 /* NSObject+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEBFB273D5F62758B254EF3121FCE152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */; };
-		D545AC73F1450E8DB168FFCBFE797115 /* NSAttributedString+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D07CEB8C2BBB93667EE5DEA316878E11 /* NSAttributedString+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6191900FC3DC2511081304C57881E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */; };
+		CEBFB273D5F62758B254EF3121FCE152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		D6191900FC3DC2511081304C57881E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
 		DACE76CEE23428E75A6373BE7A5A1076 /* TMUIKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A325B2432403938E946E326725FA2DF2 /* TMUIKitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB6F1C954021F2FD24F90D6F67F17057 /* UICollectionView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AF9E216C2BF35CF5F676636B1A00F3 /* UICollectionView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0055CCA62F00A66C91F764F94C12EAF /* UITextField+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E6A1603CA147F5E594723AF0A7990E /* UITextField+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E72207A372CD5B54DEC1F7A7215E3EAF /* UIScrollView+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 66166E1B4304D746F31BA968F2A44BBE /* UIScrollView+TMUI.m */; };
-		E7E81EC49BA482AE253A5657AADC18AC /* UITableView+TMUIGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 758AAA88A94DD7686D91F2379C8C44FA /* UITableView+TMUIGroup.m */; };
 		E7FD3189CF507157CC3D23AF462EBFEF /* TMUICore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AB74E3C517F58DCE6C8B67DE28DC70 /* TMUICore-dummy.m */; };
 		E850B741B98ED44D992FE525D2AAAD7B /* TMUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB2AB85FBBA5108CE07FC44058AC709 /* TMUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E897B41E8E794098DF176BC890DD5A /* UIButton+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E70516B6820A925D4DF7CA2F0EF04071 /* UIButton+TMUI.m */; };
-		E9D17928B98DB3CEE91C638D13912BCA /* UICollectionViewCell+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A13381160A233C75555F048EC9D4360B /* UICollectionViewCell+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBD8CB95CF258FBC7308AA362BA3C15E /* Pods-TMUIExtensionsBinary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 730A8587E3376C53510F1701D4DBE830 /* Pods-TMUIExtensionsBinary-dummy.m */; };
-		EC682BAD3E092245AB01A4BFCFBE548C /* UIColor+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3D0D4998B90D2615F5C68A9FF0BC6 /* UIColor+TMUI.m */; };
 		EF1B2630074A74ED4BFA6B22D55FBBA9 /* TMUIWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 509FFE855FA002C91817CB3245CACF7C /* TMUIWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF8F389DDC7718080976431456E52A44 /* Pods-TMUIExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC352405320003BF245610BEA445384 /* Pods-TMUIExtensions_Tests-dummy.m */; };
-		F00EF1FDDA93E8753BFCE7323409CC61 /* NSDictionary+TMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0BF875D6E592DE384799839DCD48C /* NSDictionary+TMUI.m */; };
 		F3E18A4CC1A18C1587A34BF65C88231D /* TMUICommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 906C5752E179BD2CE659649CE468C3A7 /* TMUICommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3EECE64ECD38979EE381F889D7C3149 /* UITableView+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD50BF42B118D7AA5DA1DCED2B2C8A3 /* UITableView+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4F66F1FDBD0B5D502B048F4F827F44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */; };
-		F5C60FE06501CAB91D7AE4BC16038101 /* NSDictionary+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B9158652F48093BA9D23B1B47D5B72F2 /* NSDictionary+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F799E802AB53C19A257E91A1F06F2272 /* NSTimer+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9EB567B46208986136D4AAB013C1EB /* NSTimer+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F97D2ED7C327326E8B5DC045916A1663 /* TMUIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E6720476B539D17E8EBDF412C359FC /* TMUIConfiguration.m */; };
-		FAD1A6BC8F8E7EBC3DADD664AE4DACC1 /* NSArray+TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9CFA696D0D18921AE0FF48909961FA /* NSArray+TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCD38636E0AC6A1AD3C2120AA6EF26A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278C8986BEC8AC1ED1FA44F58014DCA3 /* UIKit.framework */; };
 		FDD0ED7F9831F257F10DD6697B8A6012 /* TMUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A206DC7A757CF4C6867008FD35F823 /* TMUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CCE45E4BB4395AD6B63B2E1E7270238 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33F59A555FBD561669F44E365E3A0307;
-			remoteInfo = TMUIExtensions;
-		};
-		46EEB7BBBD3FF2E3456D9F0168F75616 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CE80C7ED8B553CD42FAA043E080EBA6;
-			remoteInfo = TMUICore;
-		};
-		9289B28E777F6A23541B13304A24F112 /* PBXContainerItemProxy */ = {
+		1E7D150AC132BD0EF6E919A59BF168EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C378BF4AB056041F313CB83E59DADC2;
 			remoteInfo = "Pods-TMUIExtensions_Example";
 		};
-		B9E2C1A72935556C4184061E77610BC8 /* PBXContainerItemProxy */ = {
+		8A3BA846E8F03B7253BFD30D5CF426B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2CE80C7ED8B553CD42FAA043E080EBA6;
 			remoteInfo = TMUICore;
+		};
+		985859C84574C7475FA32DB063C562F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE80C7ED8B553CD42FAA043E080EBA6;
+			remoteInfo = TMUICore;
+		};
+		B2DB7F88E60465D6F72387D4A63FCBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F59A555FBD561669F44E365E3A0307;
+			remoteInfo = TMUIExtensions;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -168,157 +86,63 @@
 		034A461EA144AC1F580A57F23AEA8EAC /* Pods-TMUIExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
 		03719D309409C2A57FFD7312FBE07E79 /* Pods-TMUIExtensionsBinary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensionsBinary-acknowledgements.plist"; sourceTree = "<group>"; };
 		045EC27DE86E3BD1B1C1B2CA4E8B460E /* Pods-TMUIExtensionsBinary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMUIExtensionsBinary-acknowledgements.markdown"; sourceTree = "<group>"; };
-		08F8F909C5F210985319EEBE4CC84E85 /* NSDate+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TMUI.m"; sourceTree = "<group>"; };
-		09C448EB9D63E329CC7D8CF9379ED3BD /* UITraitCollection+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+TMUI.h"; sourceTree = "<group>"; };
+		07884031945559731727AC83062C5ABD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0A3261B6C00788799A945B94127AFE9F /* Pods-TMUIExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMUIExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0C45507A4F4360F563498EE1CFABC41B /* UITableView+TMUIGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TMUIGroup.h"; sourceTree = "<group>"; };
-		0C4A69739189279982179AB57F0CC0AE /* TMUIExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TMUIExtensions.framework; path = TMUIExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DD70C228F8AB428A3DF950F9F4AA0E5 /* UITextField+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TMUI.m"; sourceTree = "<group>"; };
 		0E2F4FFC2375B33FFE1D5081519D5136 /* Pods-TMUIExtensionsBinary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensionsBinary.release.xcconfig"; sourceTree = "<group>"; };
-		11E9BB9485E1AEBB747AE4061A57502C /* TMUIExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIExtensions.release.xcconfig; sourceTree = "<group>"; };
-		125F281CD9B445B7E8586EC0A29CEAFA /* UIView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TMUI.h"; sourceTree = "<group>"; };
-		13D74B115F0BA0FF36AA904CDA6F60C9 /* NSMutableParagraphStyle+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableParagraphStyle+TMUI.h"; sourceTree = "<group>"; };
-		19A582944AE69927D8AB3913F7B47455 /* TMUIExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TMUIExtensions.modulemap; sourceTree = "<group>"; };
-		1A71619651A6519BCE923EB237846D37 /* UIBarButtonItem+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TMUI.h"; sourceTree = "<group>"; };
-		1F2E6965EF48E33FC7424BE872C1D16F /* UIVisualEffectView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIVisualEffectView+TMUI.h"; sourceTree = "<group>"; };
 		1F6B8BD81C112550D12406C9364D220A /* Pods-TMUIExtensionsBinary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMUIExtensionsBinary-umbrella.h"; sourceTree = "<group>"; };
 		1FA71ED2E012BDEAC827EE8DA281D42E /* TMUIConfigurationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIConfigurationMacros.h; path = TMUIKit/TMUICore/TMUIConfigurationMacros.h; sourceTree = "<group>"; };
-		201A7ECEF99ABC16D8DF24923D1D7811 /* UINib+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINib+TMUI.h"; sourceTree = "<group>"; };
-		2151835E90AD9B87FAE488F56E4C89EB /* NSString+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TMUI.h"; sourceTree = "<group>"; };
-		22305FEB1F3E24B92CA78749B0E4FB7D /* UIImage+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+TMUI.h"; sourceTree = "<group>"; };
-		248A03E7C8401129DA861C5EE08448D1 /* UINavigationItem+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+TMUI.m"; sourceTree = "<group>"; };
+		2314AE9B9E569770AE9464A27E6CC941 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2596A851D446B7CEAFCC8B5A4B4AFB2B /* TMUICore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMUICore-prefix.pch"; sourceTree = "<group>"; };
-		25ACE13D7D6321335C1D05AC6D5DB3C5 /* UIView+TMUIBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TMUIBorder.h"; sourceTree = "<group>"; };
-		2635CC78A919AABAFF2E27E19591798E /* NSObject+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TMUI.m"; sourceTree = "<group>"; };
-		278C8986BEC8AC1ED1FA44F58014DCA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2A1BCB6F4DFFE0608319D6CF59A5A972 /* UITableViewHeaderFooterView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewHeaderFooterView+TMUI.m"; sourceTree = "<group>"; };
 		2AB547DF4585448AD3BA199007DE2333 /* Pods-TMUIExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMUIExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2BA98A54788C532C82467CBC0C9BF2E6 /* TMUIExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMUIExtensions-umbrella.h"; sourceTree = "<group>"; };
-		2C02FB00F1E6E0C0A044B36A8A08D194 /* NSBundle+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TMUI.h"; sourceTree = "<group>"; };
 		2C4CC3F865B6F22A6930E2B708AD2BC1 /* TMUICore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TMUICore.modulemap; sourceTree = "<group>"; };
-		2D89EA4A54486B6C1791C013CE5CFB07 /* UILabel+TMUIAttributesTextClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TMUIAttributesTextClick.m"; sourceTree = "<group>"; };
-		2DF3D41E85DA6CBFAC860F5A3067C66A /* UITableViewCell+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TMUI.h"; sourceTree = "<group>"; };
-		2FD4AA7956FF55C600C6F33F003D0E19 /* UIImage+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TMUI.m"; sourceTree = "<group>"; };
-		2FE101B6AA31DC289039A38B33865CF9 /* UITabBarItem+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+TMUI.m"; sourceTree = "<group>"; };
 		308CE7A7E4A0F6145F2F2ECD8A3BDAA5 /* Pods-TMUIExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		310AF30791EAB627E7938A10F343D3FA /* NSURL+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+TMUI.h"; sourceTree = "<group>"; };
-		31651901992B371C7FADF78ED19EB9E7 /* NSDate+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+TMUI.h"; sourceTree = "<group>"; };
 		330E851C21911C44AE74DE677B956286 /* Pods-TMUIExtensionsBinary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensionsBinary-Info.plist"; sourceTree = "<group>"; };
-		33A146F79FD9E6177DF16DEE2D7E72A1 /* UIBarItem+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+TMUI.h"; sourceTree = "<group>"; };
 		347B736820DB1B23FB60DC3328B20E5B /* TMUIAssociatedPropertyDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIAssociatedPropertyDefines.h; path = TMUIKit/TMUICore/TMUIAssociatedPropertyDefines.h; sourceTree = "<group>"; };
-		3570DD9B30733825C8BEE330F1197AE0 /* NSMutableArray+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TMUI.m"; sourceTree = "<group>"; };
-		36AC2527EFC414A0F34391017E6D5F4B /* UITableViewHeaderFooterView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewHeaderFooterView+TMUI.h"; sourceTree = "<group>"; };
-		370FB77E2391F006F9DB69A0C2CB8F31 /* NSMutableDictionary+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TMUI.h"; sourceTree = "<group>"; };
 		3AF79A7B533561975C95C99EC0514DF2 /* TMUIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIConfiguration.h; path = TMUIKit/TMUICore/TMUIConfiguration.h; sourceTree = "<group>"; };
-		3B6147D0F88FC14F446598FAF7A82067 /* UIViewController+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TMUI.h"; sourceTree = "<group>"; };
 		3CEAE6700AE281944DEA527A25E3FFA7 /* Pods-TMUIExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMUIExtensions_Example-dummy.m"; sourceTree = "<group>"; };
 		3CF93C3B11AE1481159B85ED305351C3 /* TMUIWeakObjectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIWeakObjectContainer.m; path = TMUIKit/TMUICore/TMUIWeakObjectContainer.m; sourceTree = "<group>"; };
-		3D4D6C92739269310539C9321B77B193 /* UIVisualEffectView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIVisualEffectView+TMUI.m"; sourceTree = "<group>"; };
 		3FB2AB85FBBA5108CE07FC44058AC709 /* TMUICore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUICore.h; path = TMUIKit/TMUICore/TMUICore.h; sourceTree = "<group>"; };
-		416DB67921F2F11071F28D823A45332B /* UITextInputTraits+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextInputTraits+TMUI.h"; sourceTree = "<group>"; };
 		446622306DA8BA44C71D5B930E9B0C66 /* TMUIRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIRuntime.m; path = TMUIKit/TMUICore/TMUIRuntime.m; sourceTree = "<group>"; };
-		46B2BE93E3D15C7BF45E5372AFC1847E /* UICollectionView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TMUI.m"; sourceTree = "<group>"; };
-		46DF35B5CDF21120604F52E24AB43E2B /* ALAssetsLibrary+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+TMUI.m"; sourceTree = "<group>"; };
-		46E6A1603CA147F5E594723AF0A7990E /* UITextField+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+TMUI.h"; sourceTree = "<group>"; };
-		48EC442027C56ACD144ACBB7CF75E5EF /* CAAnimation+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+TMUI.h"; sourceTree = "<group>"; };
-		4B98D8167E840FD3F36D3FD6A766F05B /* NSFileManager+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TMUI.m"; sourceTree = "<group>"; };
-		4C231A26A40C537F4FBFCC8D1C870E9A /* UIView+TMUIBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMUIBorder.m"; sourceTree = "<group>"; };
 		4C3936DDA2327D4C0F3561756C9420FC /* Pods-TMUIExtensionsBinary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensionsBinary.debug.xcconfig"; sourceTree = "<group>"; };
 		509FFE855FA002C91817CB3245CACF7C /* TMUIWeakObjectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIWeakObjectContainer.h; path = TMUIKit/TMUICore/TMUIWeakObjectContainer.h; sourceTree = "<group>"; };
-		5150D079E47E131A80A4B3612A1548B6 /* UIView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMUI.m"; sourceTree = "<group>"; };
-		52D0BF875D6E592DE384799839DCD48C /* NSDictionary+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TMUI.m"; sourceTree = "<group>"; };
-		52F7B6D1FBD5F99242D9F021AAC22C6C /* NSString+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMUI.m"; sourceTree = "<group>"; };
 		53396094BE96879483A41A185248391B /* Pods-TMUIExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		55F6068F165A77CDEFDE6968C9C9AEFE /* UICollectionViewCell+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TMUI.m"; sourceTree = "<group>"; };
-		577DF0E80FC7731554A154ADC443AE6B /* TMUIExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIExtensions.h; path = TMUIExtensions/Classes/TMUIExtensions.h; sourceTree = "<group>"; };
-		59B6709D7C379FCAB2EF8C12EE66AD1A /* NSURL+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+TMUI.m"; sourceTree = "<group>"; };
-		5B14A9CC3601F067CA1EA5A6B5EB5E61 /* UIBarButtonItem+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TMUI.m"; sourceTree = "<group>"; };
-		604066C37E17B2EEC1E36AC61324A1A7 /* UITextView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TMUI.m"; sourceTree = "<group>"; };
-		61036AA09164F143BC53AC81C44A063D /* CALayer+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+TMUI.h"; sourceTree = "<group>"; };
+		553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5CF08598FEAB002790EA256F54DF5BD8 /* TMUIExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIExtensions.debug.xcconfig; sourceTree = "<group>"; };
 		636FFA8BA2319DB92D629394B5F84215 /* Pods-TMUIExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMUIExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6373B558ED0869EFA9E2C4B7B7B3CC69 /* NSFileManager+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TMUI.h"; sourceTree = "<group>"; };
-		63AF9E216C2BF35CF5F676636B1A00F3 /* UICollectionView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TMUI.h"; sourceTree = "<group>"; };
-		65D0040DEC249EF0905B123CF6E2E02E /* UILabel+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TMUI.m"; sourceTree = "<group>"; };
-		66166E1B4304D746F31BA968F2A44BBE /* UIScrollView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TMUI.m"; sourceTree = "<group>"; };
-		67834E9B96C83F82CF73A6D3D70CD220 /* NSMethodSignature+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+TMUI.h"; sourceTree = "<group>"; };
 		6D3002BF067C08E5435DED831DADB06E /* Pods_TMUIExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMUIExtensions_Example.framework; path = "Pods-TMUIExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4C4D0E044EA8CAE7A08900B82B1452 /* UILabel+TMUIAttributesTextClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+TMUIAttributesTextClick.h"; sourceTree = "<group>"; };
-		6EDDA902D148AAF815D05B4CE3E8332F /* CAAnimation+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+TMUI.m"; sourceTree = "<group>"; };
+		71165EA438EDBE787B22B5B2AF55DB75 /* TMUIExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIExtensions.h; path = Pod/Products/include/TMUIExtensions.h; sourceTree = "<group>"; };
 		72A206DC7A757CF4C6867008FD35F823 /* TMUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIHelper.h; path = TMUIKit/TMUICore/TMUIHelper.h; sourceTree = "<group>"; };
 		730A8587E3376C53510F1701D4DBE830 /* Pods-TMUIExtensionsBinary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMUIExtensionsBinary-dummy.m"; sourceTree = "<group>"; };
 		74E98A996F03AAE61A8164BCD1DD2AE2 /* TMUICore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TMUICore-Info.plist"; sourceTree = "<group>"; };
 		75074D18A553EF8BCCCDECBF03D742B7 /* Pods-TMUIExtensionsBinary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMUIExtensionsBinary.modulemap"; sourceTree = "<group>"; };
-		758AAA88A94DD7686D91F2379C8C44FA /* UITableView+TMUIGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TMUIGroup.m"; sourceTree = "<group>"; };
-		7D00E6CFA5CAEB0AC9312CF59AECF61E /* TMUICore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMUICore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		811346AE75BC9027282ED0753907E679 /* UIControl+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TMUI.m"; sourceTree = "<group>"; };
-		886AADE6268C68A542C73E99DA649891 /* CALayer+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TMUI.m"; sourceTree = "<group>"; };
-		8A0EE4F47672CB0A40CF4049AD7CB34E /* UIBarItem+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+TMUI.m"; sourceTree = "<group>"; };
-		8A9CFA696D0D18921AE0FF48909961FA /* NSArray+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+TMUI.h"; sourceTree = "<group>"; };
-		8D389847FE0F5E6EA151A7C84373914A /* UITextView+TMUIPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TMUIPlaceholder.m"; sourceTree = "<group>"; };
-		8D6034F3F1DA92EBE377D5348BFB01B0 /* NSMutableParagraphStyle+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableParagraphStyle+TMUI.m"; sourceTree = "<group>"; };
+		8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8FC352405320003BF245610BEA445384 /* Pods-TMUIExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMUIExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
 		906C5752E179BD2CE659649CE468C3A7 /* TMUICommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUICommonDefines.h; path = TMUIKit/TMUICore/TMUICommonDefines.h; sourceTree = "<group>"; };
-		9704D791D22B43A20204B6B538F5FE4E /* UITraitCollection+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+TMUI.m"; sourceTree = "<group>"; };
-		9711474520BD180AF16619C07638B05E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9AB1399494A5C21E6217BB73A8FB071C /* TMUICore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMUICore-umbrella.h"; sourceTree = "<group>"; };
 		9C6F14C02FE7C0F24B1D49A8EA55A23C /* Pods-TMUIExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9CA6CFF4DE56252519C84BE64C1E8FEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA3D0D4998B90D2615F5C68A9FF0BC6 /* UIColor+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TMUI.m"; sourceTree = "<group>"; };
-		A0C4C417F9D819D28BA1A1DFFACBD0FA /* UINavigationItem+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+TMUI.h"; sourceTree = "<group>"; };
-		A13381160A233C75555F048EC9D4360B /* UICollectionViewCell+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TMUI.h"; sourceTree = "<group>"; };
 		A221CB2AA71035838001E84D22540D9D /* TMUICore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUICore.release.xcconfig; sourceTree = "<group>"; };
 		A325B2432403938E946E326725FA2DF2 /* TMUIKitDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIKitDefines.h; path = TMUIKit/TMUICore/TMUIKitDefines.h; sourceTree = "<group>"; };
 		A70CB6C8E7CD3D2B08A54717DC02CB41 /* Pods-TMUIExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAC300295314A921EFDDB7F252BE528E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		ABA58505586BA85EAFFB08B89194EC4F /* Pods-TMUIExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMUIExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		B1CD63CF0CBDF170ABB381E22FC07FA9 /* TMUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIHelper.m; path = TMUIKit/TMUICore/TMUIHelper.m; sourceTree = "<group>"; };
-		B80F380C1DDC97BAD94A5638CCD15D42 /* UITableView+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TMUI.m"; sourceTree = "<group>"; };
-		B9158652F48093BA9D23B1B47D5B72F2 /* NSDictionary+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TMUI.h"; sourceTree = "<group>"; };
-		BAD50BF42B118D7AA5DA1DCED2B2C8A3 /* UITableView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TMUI.h"; sourceTree = "<group>"; };
-		BD2F14C9403A16F8027EEFC4C6D13E6E /* TMUIExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMUIExtensions-prefix.pch"; sourceTree = "<group>"; };
 		C55E3B5316D133FC11C62EAEE4AA8319 /* Pods_TMUIExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMUIExtensions_Tests.framework; path = "Pods-TMUIExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8815FF748414EC47ABCE7DD7593DDC0 /* UINib+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINib+TMUI.m"; sourceTree = "<group>"; };
-		C8FB6EF9D1132DD0181074E958896288 /* TMUIExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TMUIExtensions-Info.plist"; sourceTree = "<group>"; };
-		CB8F3E38F98D1886E97B83A29BC8803C /* UITabBarItem+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+TMUI.h"; sourceTree = "<group>"; };
-		CC619C47142CCF7E06553E6A3FF70612 /* UIButton+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMUI.h"; sourceTree = "<group>"; };
-		CCD3C4F1D22DF9DC7C11981D0703DB98 /* UITextView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+TMUI.h"; sourceTree = "<group>"; };
-		CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C9477C482BA7B13DB1632A867F3655AB /* TMUIExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIExtensions.release.xcconfig; sourceTree = "<group>"; };
 		CE66F12047B126FA59EB2A93A3B32857 /* TMUIRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUIRuntime.h; path = TMUIKit/TMUICore/TMUIRuntime.h; sourceTree = "<group>"; };
-		CE9EB567B46208986136D4AAB013C1EB /* NSTimer+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TMUI.h"; sourceTree = "<group>"; };
-		D07CEB8C2BBB93667EE5DEA316878E11 /* NSAttributedString+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TMUI.h"; sourceTree = "<group>"; };
 		D0AB74E3C517F58DCE6C8B67DE28DC70 /* TMUICore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMUICore-dummy.m"; sourceTree = "<group>"; };
-		D2C43267341F48B4923AB853DA50240D /* UIViewController+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TMUI.m"; sourceTree = "<group>"; };
-		D7328526162B93AC004222DA20118446 /* NSMethodSignature+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+TMUI.m"; sourceTree = "<group>"; };
 		D8C9ED917AD603370B9B0686752AA313 /* Pods_TMUIExtensionsBinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMUIExtensionsBinary.framework; path = "Pods-TMUIExtensionsBinary.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BFAE6ED519E3374BACFBB53FB50B85 /* NSBundle+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TMUI.m"; sourceTree = "<group>"; };
-		DBB9D2E81349F393A23106D4E057FB64 /* NSMutableDictionary+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TMUI.m"; sourceTree = "<group>"; };
-		DBEE5833C7E5184F042F1AE8254BD841 /* NSAttributedString+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TMUI.m"; sourceTree = "<group>"; };
-		DCA053B530C59B87B3E05195D18B9A5C /* TMUIExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMUIExtensions-dummy.m"; sourceTree = "<group>"; };
-		E25B765FB81E3FD665902819F915EA2E /* ALAssetsLibrary+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+TMUI.h"; sourceTree = "<group>"; };
-		E3BE6979E94F54F367606E5C2BC62A85 /* NSTimer+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TMUI.m"; sourceTree = "<group>"; };
+		DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E5E6720476B539D17E8EBDF412C359FC /* TMUIConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMUIConfiguration.m; path = TMUIKit/TMUICore/TMUIConfiguration.m; sourceTree = "<group>"; };
-		E70516B6820A925D4DF7CA2F0EF04071 /* UIButton+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMUI.m"; sourceTree = "<group>"; };
 		E815D865AF1840912324422EFC71C69B /* Pods-TMUIExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMUIExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E886D1C391066CF094AA3B8B9593B99C /* UIScrollView+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TMUI.h"; sourceTree = "<group>"; };
 		E8905711C062BC1BAB9CBC00C3EEF3DC /* Pods-TMUIExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMUIExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
 		ED182A45DD600B6D38EE2FAF7ACFD844 /* TMUICoreGraphicsDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMUICoreGraphicsDefines.h; path = TMUIKit/TMUICore/TMUICoreGraphicsDefines.h; sourceTree = "<group>"; };
+		ED80B4349D778DEDEE377EE887922305 /* libTMUIExtensionsBinary.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTMUIExtensionsBinary.a; path = Pod/Products/lib/libTMUIExtensionsBinary.a; sourceTree = "<group>"; };
 		EE309F6EAB06A36F2996F0549B218EDF /* TMUICore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUICore.debug.xcconfig; sourceTree = "<group>"; };
-		EEB22B3C5932AEDF8492ED6E07772949 /* UITableViewCell+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TMUI.m"; sourceTree = "<group>"; };
 		EF07495C02D4E3622E790EF40360D36E /* Pods-TMUIExtensions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensions_Example-Info.plist"; sourceTree = "<group>"; };
-		EFD450EFC500697102D0EC621651FA34 /* UITextView+TMUIPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+TMUIPlaceholder.h"; sourceTree = "<group>"; };
-		F0E6F77974E747EB1CA3B97C2F085468 /* NSObject+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TMUI.h"; sourceTree = "<group>"; };
-		F3A23657B6CC4B8BEB96932F3FF76408 /* NSArray+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TMUI.m"; sourceTree = "<group>"; };
-		F41C492E4E4C40881FF01A1AF8B36198 /* TMUIExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMUIExtensions.debug.xcconfig; sourceTree = "<group>"; };
 		F469DC2C9C40F27C3653C75505994008 /* Pods-TMUIExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMUIExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7CD4F99B71BABE8907322E09AB01F81 /* UILabel+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+TMUI.h"; sourceTree = "<group>"; };
-		F8BD11881DD81A4AED8D0FE53DD06B88 /* UITextInputTraits+TMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextInputTraits+TMUI.m"; sourceTree = "<group>"; };
-		F8E23252FDAF481654732760B75E36DF /* UIControl+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+TMUI.h"; sourceTree = "<group>"; };
 		FAF2EB38A64D56D687634B93B9748E56 /* TMUICore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TMUICore.framework; path = TMUICore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBAD81CC3F296531592963F0FBAB136B /* NSMutableArray+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TMUI.h"; sourceTree = "<group>"; };
 		FBCD276B853396240726EA6B0EEA23C8 /* Pods-TMUIExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMUIExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC0A31E1FCC4EDD2CF9105A7CF882453 /* TMUIExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TMUIExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FF807A1553AE512FE84279D4970E65C2 /* UIColor+TMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+TMUI.h"; sourceTree = "<group>"; };
+		FDED95144F617336137B524BA36C469D /* TMUIExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TMUIExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,17 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AFAF57889E4FBE52B87D1B49FE2638 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6A37C70327E40F59508D1D9A6A37DDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D7B54879533892B8ABFB6CD0B2FE94E /* CoreGraphics.framework in Frameworks */,
-				F4F66F1FDBD0B5D502B048F4F827F44D /* Foundation.framework in Frameworks */,
-				8464917E27F79B1229D4E16422290A0D /* TMUICore.framework in Frameworks */,
-				FCD38636E0AC6A1AD3C2120AA6EF26A2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,53 +206,22 @@
 			path = TMUICore;
 			sourceTree = "<group>";
 		};
-		00A603A229F2B9E51324113FDDBF0C4B /* Frameworks */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D00E6CFA5CAEB0AC9312CF59AECF61E /* TMUICore.framework */,
-				F775C65F3666F026ED60EC6A7602FACC /* iOS */,
+				20D8528256A7AF28D53631225E57465A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		111125BDB1779F256FF9C894B454F0FC /* TMUIExtensions */ = {
+		20D8528256A7AF28D53631225E57465A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				577DF0E80FC7731554A154ADC443AE6B /* TMUIExtensions.h */,
-				403E5B77C91E49BF47219541FAF0C254 /* Foundation */,
-				C56EB71502CC31AB3804CE4356D3AF7D /* Pod */,
-				3312D6D611F13D78909E0BA2E3D0FCDE /* Support Files */,
-				C7849809FB7DF8D146DCE76B995E3B0B /* UIKit */,
+				553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */,
+				8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */,
+				DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */,
 			);
-			name = TMUIExtensions;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3312D6D611F13D78909E0BA2E3D0FCDE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19A582944AE69927D8AB3913F7B47455 /* TMUIExtensions.modulemap */,
-				DCA053B530C59B87B3E05195D18B9A5C /* TMUIExtensions-dummy.m */,
-				C8FB6EF9D1132DD0181074E958896288 /* TMUIExtensions-Info.plist */,
-				BD2F14C9403A16F8027EEFC4C6D13E6E /* TMUIExtensions-prefix.pch */,
-				2BA98A54788C532C82467CBC0C9BF2E6 /* TMUIExtensions-umbrella.h */,
-				F41C492E4E4C40881FF01A1AF8B36198 /* TMUIExtensions.debug.xcconfig */,
-				11E9BB9485E1AEBB747AE4061A57502C /* TMUIExtensions.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TMUIExtensions";
-			sourceTree = "<group>";
-		};
-		347FF7570CF634168CE3C9B675066836 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6D3002BF067C08E5435DED831DADB06E /* Pods_TMUIExtensions_Example.framework */,
-				C55E3B5316D133FC11C62EAEE4AA8319 /* Pods_TMUIExtensions_Tests.framework */,
-				D8C9ED917AD603370B9B0686752AA313 /* Pods_TMUIExtensionsBinary.framework */,
-				FAF2EB38A64D56D687634B93B9748E56 /* TMUICore.framework */,
-				0C4A69739189279982179AB57F0CC0AE /* TMUIExtensions.framework */,
-			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		36D5A8741A2C8DF34E41A6C933680AE3 /* Pods-TMUIExtensions_Example */ = {
@@ -459,42 +241,30 @@
 			path = "Target Support Files/Pods-TMUIExtensions_Example";
 			sourceTree = "<group>";
 		};
-		403E5B77C91E49BF47219541FAF0C254 /* Foundation */ = {
+		5EBA074660983C03C8E147244CAB59B3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E25B765FB81E3FD665902819F915EA2E /* ALAssetsLibrary+TMUI.h */,
-				46DF35B5CDF21120604F52E24AB43E2B /* ALAssetsLibrary+TMUI.m */,
-				8A9CFA696D0D18921AE0FF48909961FA /* NSArray+TMUI.h */,
-				F3A23657B6CC4B8BEB96932F3FF76408 /* NSArray+TMUI.m */,
-				D07CEB8C2BBB93667EE5DEA316878E11 /* NSAttributedString+TMUI.h */,
-				DBEE5833C7E5184F042F1AE8254BD841 /* NSAttributedString+TMUI.m */,
-				2C02FB00F1E6E0C0A044B36A8A08D194 /* NSBundle+TMUI.h */,
-				D9BFAE6ED519E3374BACFBB53FB50B85 /* NSBundle+TMUI.m */,
-				31651901992B371C7FADF78ED19EB9E7 /* NSDate+TMUI.h */,
-				08F8F909C5F210985319EEBE4CC84E85 /* NSDate+TMUI.m */,
-				B9158652F48093BA9D23B1B47D5B72F2 /* NSDictionary+TMUI.h */,
-				52D0BF875D6E592DE384799839DCD48C /* NSDictionary+TMUI.m */,
-				6373B558ED0869EFA9E2C4B7B7B3CC69 /* NSFileManager+TMUI.h */,
-				4B98D8167E840FD3F36D3FD6A766F05B /* NSFileManager+TMUI.m */,
-				67834E9B96C83F82CF73A6D3D70CD220 /* NSMethodSignature+TMUI.h */,
-				D7328526162B93AC004222DA20118446 /* NSMethodSignature+TMUI.m */,
-				FBAD81CC3F296531592963F0FBAB136B /* NSMutableArray+TMUI.h */,
-				3570DD9B30733825C8BEE330F1197AE0 /* NSMutableArray+TMUI.m */,
-				370FB77E2391F006F9DB69A0C2CB8F31 /* NSMutableDictionary+TMUI.h */,
-				DBB9D2E81349F393A23106D4E057FB64 /* NSMutableDictionary+TMUI.m */,
-				13D74B115F0BA0FF36AA904CDA6F60C9 /* NSMutableParagraphStyle+TMUI.h */,
-				8D6034F3F1DA92EBE377D5348BFB01B0 /* NSMutableParagraphStyle+TMUI.m */,
-				F0E6F77974E747EB1CA3B97C2F085468 /* NSObject+TMUI.h */,
-				2635CC78A919AABAFF2E27E19591798E /* NSObject+TMUI.m */,
-				2151835E90AD9B87FAE488F56E4C89EB /* NSString+TMUI.h */,
-				52F7B6D1FBD5F99242D9F021AAC22C6C /* NSString+TMUI.m */,
-				CE9EB567B46208986136D4AAB013C1EB /* NSTimer+TMUI.h */,
-				E3BE6979E94F54F367606E5C2BC62A85 /* NSTimer+TMUI.m */,
-				310AF30791EAB627E7938A10F343D3FA /* NSURL+TMUI.h */,
-				59B6709D7C379FCAB2EF8C12EE66AD1A /* NSURL+TMUI.m */,
+				BEFE5734B6831D57DEB45E6DFEE5036A /* TMUIExtensions */,
 			);
-			name = Foundation;
-			path = TMUIExtensions/Classes/Foundation;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62017039EBB78E03FDCC468A96E165FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF08598FEAB002790EA256F54DF5BD8 /* TMUIExtensions.debug.xcconfig */,
+				C9477C482BA7B13DB1632A867F3655AB /* TMUIExtensions.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TMUIExtensions";
+			sourceTree = "<group>";
+		};
+		8AA72AC303052E82EC9AE3E36DC9C811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED80B4349D778DEDEE377EE887922305 /* libTMUIExtensionsBinary.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9240DAE9206FA0D68943900FBF9E46CC /* Support Files */ = {
@@ -510,6 +280,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TMUICore";
+			sourceTree = "<group>";
+		};
+		978882BB4B218E14F7E0E693B762EED8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2314AE9B9E569770AE9464A27E6CC941 /* LICENSE */,
+				07884031945559731727AC83062C5ABD /* README.md */,
+				FDED95144F617336137B524BA36C469D /* TMUIExtensions.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9857C03E0C0C7DB553655E3C0CEF7CB9 /* Pods-TMUIExtensionsBinary */ = {
@@ -528,88 +308,27 @@
 			path = "Target Support Files/Pods-TMUIExtensionsBinary";
 			sourceTree = "<group>";
 		};
-		A1F78B5EEF0119A66378AEED0E9A1B96 /* Development Pods */ = {
+		BEFE5734B6831D57DEB45E6DFEE5036A /* TMUIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				111125BDB1779F256FF9C894B454F0FC /* TMUIExtensions */,
+				71165EA438EDBE787B22B5B2AF55DB75 /* TMUIExtensions.h */,
+				8AA72AC303052E82EC9AE3E36DC9C811 /* Frameworks */,
+				978882BB4B218E14F7E0E693B762EED8 /* Pod */,
+				62017039EBB78E03FDCC468A96E165FE /* Support Files */,
 			);
-			name = "Development Pods";
+			name = TMUIExtensions;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		C56EB71502CC31AB3804CE4356D3AF7D /* Pod */ = {
+		C6D665F19D462D388CA3E1802204DB26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9711474520BD180AF16619C07638B05E /* LICENSE */,
-				9CA6CFF4DE56252519C84BE64C1E8FEF /* README.md */,
-				FC0A31E1FCC4EDD2CF9105A7CF882453 /* TMUIExtensions.podspec */,
+				6D3002BF067C08E5435DED831DADB06E /* Pods_TMUIExtensions_Example.framework */,
+				C55E3B5316D133FC11C62EAEE4AA8319 /* Pods_TMUIExtensions_Tests.framework */,
+				D8C9ED917AD603370B9B0686752AA313 /* Pods_TMUIExtensionsBinary.framework */,
+				FAF2EB38A64D56D687634B93B9748E56 /* TMUICore.framework */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C7849809FB7DF8D146DCE76B995E3B0B /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				48EC442027C56ACD144ACBB7CF75E5EF /* CAAnimation+TMUI.h */,
-				6EDDA902D148AAF815D05B4CE3E8332F /* CAAnimation+TMUI.m */,
-				61036AA09164F143BC53AC81C44A063D /* CALayer+TMUI.h */,
-				886AADE6268C68A542C73E99DA649891 /* CALayer+TMUI.m */,
-				1A71619651A6519BCE923EB237846D37 /* UIBarButtonItem+TMUI.h */,
-				5B14A9CC3601F067CA1EA5A6B5EB5E61 /* UIBarButtonItem+TMUI.m */,
-				33A146F79FD9E6177DF16DEE2D7E72A1 /* UIBarItem+TMUI.h */,
-				8A0EE4F47672CB0A40CF4049AD7CB34E /* UIBarItem+TMUI.m */,
-				CC619C47142CCF7E06553E6A3FF70612 /* UIButton+TMUI.h */,
-				E70516B6820A925D4DF7CA2F0EF04071 /* UIButton+TMUI.m */,
-				63AF9E216C2BF35CF5F676636B1A00F3 /* UICollectionView+TMUI.h */,
-				46B2BE93E3D15C7BF45E5372AFC1847E /* UICollectionView+TMUI.m */,
-				A13381160A233C75555F048EC9D4360B /* UICollectionViewCell+TMUI.h */,
-				55F6068F165A77CDEFDE6968C9C9AEFE /* UICollectionViewCell+TMUI.m */,
-				FF807A1553AE512FE84279D4970E65C2 /* UIColor+TMUI.h */,
-				9DA3D0D4998B90D2615F5C68A9FF0BC6 /* UIColor+TMUI.m */,
-				F8E23252FDAF481654732760B75E36DF /* UIControl+TMUI.h */,
-				811346AE75BC9027282ED0753907E679 /* UIControl+TMUI.m */,
-				22305FEB1F3E24B92CA78749B0E4FB7D /* UIImage+TMUI.h */,
-				2FD4AA7956FF55C600C6F33F003D0E19 /* UIImage+TMUI.m */,
-				F7CD4F99B71BABE8907322E09AB01F81 /* UILabel+TMUI.h */,
-				65D0040DEC249EF0905B123CF6E2E02E /* UILabel+TMUI.m */,
-				6D4C4D0E044EA8CAE7A08900B82B1452 /* UILabel+TMUIAttributesTextClick.h */,
-				2D89EA4A54486B6C1791C013CE5CFB07 /* UILabel+TMUIAttributesTextClick.m */,
-				A0C4C417F9D819D28BA1A1DFFACBD0FA /* UINavigationItem+TMUI.h */,
-				248A03E7C8401129DA861C5EE08448D1 /* UINavigationItem+TMUI.m */,
-				201A7ECEF99ABC16D8DF24923D1D7811 /* UINib+TMUI.h */,
-				C8815FF748414EC47ABCE7DD7593DDC0 /* UINib+TMUI.m */,
-				E886D1C391066CF094AA3B8B9593B99C /* UIScrollView+TMUI.h */,
-				66166E1B4304D746F31BA968F2A44BBE /* UIScrollView+TMUI.m */,
-				CB8F3E38F98D1886E97B83A29BC8803C /* UITabBarItem+TMUI.h */,
-				2FE101B6AA31DC289039A38B33865CF9 /* UITabBarItem+TMUI.m */,
-				BAD50BF42B118D7AA5DA1DCED2B2C8A3 /* UITableView+TMUI.h */,
-				B80F380C1DDC97BAD94A5638CCD15D42 /* UITableView+TMUI.m */,
-				0C45507A4F4360F563498EE1CFABC41B /* UITableView+TMUIGroup.h */,
-				758AAA88A94DD7686D91F2379C8C44FA /* UITableView+TMUIGroup.m */,
-				2DF3D41E85DA6CBFAC860F5A3067C66A /* UITableViewCell+TMUI.h */,
-				EEB22B3C5932AEDF8492ED6E07772949 /* UITableViewCell+TMUI.m */,
-				36AC2527EFC414A0F34391017E6D5F4B /* UITableViewHeaderFooterView+TMUI.h */,
-				2A1BCB6F4DFFE0608319D6CF59A5A972 /* UITableViewHeaderFooterView+TMUI.m */,
-				46E6A1603CA147F5E594723AF0A7990E /* UITextField+TMUI.h */,
-				0DD70C228F8AB428A3DF950F9F4AA0E5 /* UITextField+TMUI.m */,
-				416DB67921F2F11071F28D823A45332B /* UITextInputTraits+TMUI.h */,
-				F8BD11881DD81A4AED8D0FE53DD06B88 /* UITextInputTraits+TMUI.m */,
-				CCD3C4F1D22DF9DC7C11981D0703DB98 /* UITextView+TMUI.h */,
-				604066C37E17B2EEC1E36AC61324A1A7 /* UITextView+TMUI.m */,
-				EFD450EFC500697102D0EC621651FA34 /* UITextView+TMUIPlaceholder.h */,
-				8D389847FE0F5E6EA151A7C84373914A /* UITextView+TMUIPlaceholder.m */,
-				09C448EB9D63E329CC7D8CF9379ED3BD /* UITraitCollection+TMUI.h */,
-				9704D791D22B43A20204B6B538F5FE4E /* UITraitCollection+TMUI.m */,
-				125F281CD9B445B7E8586EC0A29CEAFA /* UIView+TMUI.h */,
-				5150D079E47E131A80A4B3612A1548B6 /* UIView+TMUI.m */,
-				25ACE13D7D6321335C1D05AC6D5DB3C5 /* UIView+TMUIBorder.h */,
-				4C231A26A40C537F4FBFCC8D1C870E9A /* UIView+TMUIBorder.m */,
-				3B6147D0F88FC14F446598FAF7A82067 /* UIViewController+TMUI.h */,
-				D2C43267341F48B4923AB853DA50240D /* UIViewController+TMUI.m */,
-				1F2E6965EF48E33FC7424BE872C1D16F /* UIVisualEffectView+TMUI.h */,
-				3D4D6C92739269310539C9321B77B193 /* UIVisualEffectView+TMUI.m */,
-			);
-			name = UIKit;
-			path = TMUIExtensions/Classes/UIKit;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CE669AA4CBA5BF648C29913D2D83D47C /* Pods-TMUIExtensions_Tests */ = {
@@ -632,10 +351,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A1F78B5EEF0119A66378AEED0E9A1B96 /* Development Pods */,
-				00A603A229F2B9E51324113FDDBF0C4B /* Frameworks */,
+				5EBA074660983C03C8E147244CAB59B3 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				F6F6036FBB3265A36D1DD085B4459061 /* Pods */,
-				347FF7570CF634168CE3C9B675066836 /* Products */,
+				C6D665F19D462D388CA3E1802204DB26 /* Products */,
 				D8CAED96E49CA62B322DB7DA7DFB3E48 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -656,16 +375,6 @@
 				0036A4F5F3981E0C603CCF756063483B /* TMUICore */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F775C65F3666F026ED60EC6A7602FACC /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AAC300295314A921EFDDB7F252BE528E /* CoreGraphics.framework */,
-				CDD0EC14920931A8EDC36DCA22E5102B /* Foundation.framework */,
-				278C8986BEC8AC1ED1FA44F58014DCA3 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,59 +401,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				494496ED92482E2C1A46FF127864A3D0 /* Pods-TMUIExtensionsBinary-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA6FFCF95CB4C42A9B9F8F28E50D6ED8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02ECF4D8C22F296E2E1992F1147821CC /* ALAssetsLibrary+TMUI.h in Headers */,
-				A90C36538D077C6FA7ED2C685C9F3125 /* CAAnimation+TMUI.h in Headers */,
-				8B6031DF517F5A295FA3D90FA5D8D556 /* CALayer+TMUI.h in Headers */,
-				FAD1A6BC8F8E7EBC3DADD664AE4DACC1 /* NSArray+TMUI.h in Headers */,
-				D545AC73F1450E8DB168FFCBFE797115 /* NSAttributedString+TMUI.h in Headers */,
-				5019114486D7B3D814F2E43027EAFCD4 /* NSBundle+TMUI.h in Headers */,
-				739E33536F9352D9B85EC2D9E45ABB1E /* NSDate+TMUI.h in Headers */,
-				F5C60FE06501CAB91D7AE4BC16038101 /* NSDictionary+TMUI.h in Headers */,
-				C1E6924DA42531BD032B03BFCAEF858A /* NSFileManager+TMUI.h in Headers */,
-				04352A031E18A8A5797FCEA6824A51A7 /* NSMethodSignature+TMUI.h in Headers */,
-				4C71C11C19D4018FB57EA94A40C1D204 /* NSMutableArray+TMUI.h in Headers */,
-				0A1B2EFD55CA7B7E1BBFE7BC3AE72F8F /* NSMutableDictionary+TMUI.h in Headers */,
-				32131C8998657CD31ACFA88D274FB432 /* NSMutableParagraphStyle+TMUI.h in Headers */,
-				C7298CBA33F22F3722722C767A847289 /* NSObject+TMUI.h in Headers */,
-				4ACB90C42005987011D2EC2173A8FE2D /* NSString+TMUI.h in Headers */,
-				F799E802AB53C19A257E91A1F06F2272 /* NSTimer+TMUI.h in Headers */,
-				15D745E411C9C5B8CF6AD38B3581BFDE /* NSURL+TMUI.h in Headers */,
-				AE2CC9951D2342A55E99118BF65742DA /* TMUIExtensions-umbrella.h in Headers */,
-				66C934887B10AD83CEB6FC49DB1BD1FD /* TMUIExtensions.h in Headers */,
-				851CFD6893BACFC27B7713FFC8513E97 /* UIBarButtonItem+TMUI.h in Headers */,
-				AF8B52159F5BCF71F6DF0C5DDB52D370 /* UIBarItem+TMUI.h in Headers */,
-				AAFBC5F8B561EF109A3AF86217A4BD9A /* UIButton+TMUI.h in Headers */,
-				DB6F1C954021F2FD24F90D6F67F17057 /* UICollectionView+TMUI.h in Headers */,
-				E9D17928B98DB3CEE91C638D13912BCA /* UICollectionViewCell+TMUI.h in Headers */,
-				C6960AB5DD82006DE6FD6D5D8A10F6E7 /* UIColor+TMUI.h in Headers */,
-				3AA5A60CB81E99C6FEEF4E224C7726D7 /* UIControl+TMUI.h in Headers */,
-				BAB49A40E0A9BA87FA8B3E3F0D77BFAC /* UIImage+TMUI.h in Headers */,
-				4174A46A851DACAB93C2E478EA724514 /* UILabel+TMUI.h in Headers */,
-				575ADB5709B033E0140A49581B7E7ECE /* UILabel+TMUIAttributesTextClick.h in Headers */,
-				3FAEEF6A14795D51074D19816307CB37 /* UINavigationItem+TMUI.h in Headers */,
-				5BBBF0D839C70CB50B67728C84E1E613 /* UINib+TMUI.h in Headers */,
-				1B04FD2DF43D136AF0EEC731A6E8F8E8 /* UIScrollView+TMUI.h in Headers */,
-				51E61DFBD46D0E05E65936E25A5094C5 /* UITabBarItem+TMUI.h in Headers */,
-				F3EECE64ECD38979EE381F889D7C3149 /* UITableView+TMUI.h in Headers */,
-				1D76E3D13ED4825DE3F9EB1ED7A231F6 /* UITableView+TMUIGroup.h in Headers */,
-				582EC5FD07F7AC5D37376063D3D75041 /* UITableViewCell+TMUI.h in Headers */,
-				5250525954606E877D808A975B318D30 /* UITableViewHeaderFooterView+TMUI.h in Headers */,
-				E0055CCA62F00A66C91F764F94C12EAF /* UITextField+TMUI.h in Headers */,
-				8BF12B6239B69E72738C4CE6E47AEF4E /* UITextInputTraits+TMUI.h in Headers */,
-				7CD0350DFA95CD72423DD7A2E87A4C7F /* UITextView+TMUI.h in Headers */,
-				4192F432DE275A93BC744C2D0AE7F31E /* UITextView+TMUIPlaceholder.h in Headers */,
-				61AF5AE8403BA262D3837E2BA6DA033A /* UITraitCollection+TMUI.h in Headers */,
-				51E350E5D1A25B903D1BAA5A94F28529 /* UIView+TMUI.h in Headers */,
-				A3A494BFB864C6F94C46462B1AFFDCDA /* UIView+TMUIBorder.h in Headers */,
-				AB38B262D3BD49AACB032E4848A5A84D /* UIViewController+TMUI.h in Headers */,
-				A6DF3F307D5CB04CF2B32E2BD1E931D6 /* UIVisualEffectView+TMUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,25 +443,6 @@
 			productReference = FAF2EB38A64D56D687634B93B9748E56 /* TMUICore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		33F59A555FBD561669F44E365E3A0307 /* TMUIExtensions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDCBE052ED1784B231830EF95AAFA010 /* Build configuration list for PBXNativeTarget "TMUIExtensions" */;
-			buildPhases = (
-				BA6FFCF95CB4C42A9B9F8F28E50D6ED8 /* Headers */,
-				A2970B9CAC6C15E81257CD61E8356AC0 /* Sources */,
-				B6A37C70327E40F59508D1D9A6A37DDB /* Frameworks */,
-				EF5206E515E2743E55D960406E9D16A3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6261C333AD601672D6BB5199C41828C2 /* PBXTargetDependency */,
-			);
-			name = TMUIExtensions;
-			productName = TMUIExtensions;
-			productReference = 0C4A69739189279982179AB57F0CC0AE /* TMUIExtensions.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5C378BF4AB056041F313CB83E59DADC2 /* Pods-TMUIExtensions_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DF0EF821E55A138984CB97464CF74B /* Build configuration list for PBXNativeTarget "Pods-TMUIExtensions_Example" */;
@@ -818,8 +455,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				B4FA5E0252601613382B65BB860E4E60 /* PBXTargetDependency */,
-				F5DB10C28B0D17D7D59A8B7EEEE2BAFC /* PBXTargetDependency */,
+				2D46941B1D1B39FF906091A9FE0A0F46 /* PBXTargetDependency */,
+				EB0E2645B09C41A1CDB4252137BFDB8E /* PBXTargetDependency */,
 			);
 			name = "Pods-TMUIExtensions_Example";
 			productName = "Pods-TMUIExtensions_Example";
@@ -838,7 +475,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6897DBCDA6A505CF68AC4A4721723C45 /* PBXTargetDependency */,
+				4CCCC042A80E0B6AD5B2A5A5834BE186 /* PBXTargetDependency */,
 			);
 			name = "Pods-TMUIExtensions_Tests";
 			productName = "Pods-TMUIExtensions_Tests";
@@ -881,7 +518,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 347FF7570CF634168CE3C9B675066836 /* Products */;
+			productRefGroup = C6D665F19D462D388CA3E1802204DB26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -917,13 +554,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D12B3998EA144EE39B4BCD0554EDBA22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF5206E515E2743E55D960406E9D16A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -969,84 +599,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2970B9CAC6C15E81257CD61E8356AC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BDEB500C61BAAB2FA90DA322347EFD8 /* ALAssetsLibrary+TMUI.m in Sources */,
-				212402A33E63281E85D0ECEAFC1F1C2B /* CAAnimation+TMUI.m in Sources */,
-				807FF7A39F3160ABC4108685492065BA /* CALayer+TMUI.m in Sources */,
-				18A6E3213B4D8FC233B325872F4DAEB8 /* NSArray+TMUI.m in Sources */,
-				5881826ECABC2F5F29684BFAFE43878A /* NSAttributedString+TMUI.m in Sources */,
-				362466792AF3D12F5153EBFD4AEE4573 /* NSBundle+TMUI.m in Sources */,
-				9A7E024FF1ABB5E1C31008EB0376A659 /* NSDate+TMUI.m in Sources */,
-				F00EF1FDDA93E8753BFCE7323409CC61 /* NSDictionary+TMUI.m in Sources */,
-				5B7F67D74288935DB1A0CBFEB5F14494 /* NSFileManager+TMUI.m in Sources */,
-				9538540907B9EA49D6582B77D0F1C5B6 /* NSMethodSignature+TMUI.m in Sources */,
-				BC30EFAD108AD3C6CB39FE14480C3375 /* NSMutableArray+TMUI.m in Sources */,
-				3FBA38AFB834EF4D2B115440924E0A6A /* NSMutableDictionary+TMUI.m in Sources */,
-				1F92A04993D2A23176C97EBD5C7F05FB /* NSMutableParagraphStyle+TMUI.m in Sources */,
-				652FCCE43B9E70FC35146B84BF424E2F /* NSObject+TMUI.m in Sources */,
-				7725A429330E79833BFED72ABB63D9F1 /* NSString+TMUI.m in Sources */,
-				C2349433E104777A552A4B98894D44D1 /* NSTimer+TMUI.m in Sources */,
-				771DCC385752290B4E44A88CF64044CB /* NSURL+TMUI.m in Sources */,
-				08B235350F85A77693C369F2DB7FBC18 /* TMUIExtensions-dummy.m in Sources */,
-				8BD8183A89A307BD97C9FB0CFBFF4D24 /* UIBarButtonItem+TMUI.m in Sources */,
-				16975EA716FC4171A1BF0E14F03B415E /* UIBarItem+TMUI.m in Sources */,
-				E8E897B41E8E794098DF176BC890DD5A /* UIButton+TMUI.m in Sources */,
-				65B77EDDD70BDBDE95D20C428D58CF8A /* UICollectionView+TMUI.m in Sources */,
-				61A83E046EAE4E3A4302C142D1EA096A /* UICollectionViewCell+TMUI.m in Sources */,
-				EC682BAD3E092245AB01A4BFCFBE548C /* UIColor+TMUI.m in Sources */,
-				08A419379D1EBEE2A4C9D31F1399E2EB /* UIControl+TMUI.m in Sources */,
-				9F92AE8DEF138E4F88D29F05B5381372 /* UIImage+TMUI.m in Sources */,
-				25699A1D2E23950C69070BA707AE533C /* UILabel+TMUI.m in Sources */,
-				719C19A3C59D69FC305151D8865C076C /* UILabel+TMUIAttributesTextClick.m in Sources */,
-				7612B7D6F64E7A012214BC2D56616EEA /* UINavigationItem+TMUI.m in Sources */,
-				3153C0ADDA035B82D34A9B8935272C7D /* UINib+TMUI.m in Sources */,
-				E72207A372CD5B54DEC1F7A7215E3EAF /* UIScrollView+TMUI.m in Sources */,
-				57723D4D6BA4955CF3F55245DED45A75 /* UITabBarItem+TMUI.m in Sources */,
-				71AC1DA2FAE024A767A1D425FB13CEB6 /* UITableView+TMUI.m in Sources */,
-				E7E81EC49BA482AE253A5657AADC18AC /* UITableView+TMUIGroup.m in Sources */,
-				8BB28B67506D8D55A54BF56526E6A5D5 /* UITableViewCell+TMUI.m in Sources */,
-				8B030C863A1624A3A1C176685EE87B00 /* UITableViewHeaderFooterView+TMUI.m in Sources */,
-				170BA5F31A8BEC3790526292C4B9BB2E /* UITextField+TMUI.m in Sources */,
-				14ED68E3B7BAAFCB8A72B015A2B3AA8A /* UITextInputTraits+TMUI.m in Sources */,
-				2A37C2D93B2F7ED5AE9154C74AB39188 /* UITextView+TMUI.m in Sources */,
-				367A7843604DF77A7ED58D55CC4A0A00 /* UITextView+TMUIPlaceholder.m in Sources */,
-				505DDA3C8F5FA77BC5BDCC414CDC101A /* UITraitCollection+TMUI.m in Sources */,
-				A4FBC5989B0B1F433B3D810B0C6B050F /* UIView+TMUI.m in Sources */,
-				0F54D7C239A64665BFC9464987F044FA /* UIView+TMUIBorder.m in Sources */,
-				C0F450064A2E6F86D1EA5EE31844C960 /* UIViewController+TMUI.m in Sources */,
-				8A503F16C5D0FCF9504D326A1B9FE04A /* UIVisualEffectView+TMUI.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6261C333AD601672D6BB5199C41828C2 /* PBXTargetDependency */ = {
+		2D46941B1D1B39FF906091A9FE0A0F46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TMUICore;
 			target = 2CE80C7ED8B553CD42FAA043E080EBA6 /* TMUICore */;
-			targetProxy = B9E2C1A72935556C4184061E77610BC8 /* PBXContainerItemProxy */;
+			targetProxy = 8A3BA846E8F03B7253BFD30D5CF426B7 /* PBXContainerItemProxy */;
 		};
-		6897DBCDA6A505CF68AC4A4721723C45 /* PBXTargetDependency */ = {
+		4CCCC042A80E0B6AD5B2A5A5834BE186 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TMUIExtensions_Example";
 			target = 5C378BF4AB056041F313CB83E59DADC2 /* Pods-TMUIExtensions_Example */;
-			targetProxy = 9289B28E777F6A23541B13304A24F112 /* PBXContainerItemProxy */;
+			targetProxy = 1E7D150AC132BD0EF6E919A59BF168EE /* PBXContainerItemProxy */;
 		};
-		B4FA5E0252601613382B65BB860E4E60 /* PBXTargetDependency */ = {
+		A62CF5430D54DE3C303B699121DECEE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TMUICore;
 			target = 2CE80C7ED8B553CD42FAA043E080EBA6 /* TMUICore */;
-			targetProxy = 46EEB7BBBD3FF2E3456D9F0168F75616 /* PBXContainerItemProxy */;
+			targetProxy = 985859C84574C7475FA32DB063C562F3 /* PBXContainerItemProxy */;
 		};
-		F5DB10C28B0D17D7D59A8B7EEEE2BAFC /* PBXTargetDependency */ = {
+		EB0E2645B09C41A1CDB4252137BFDB8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TMUIExtensions;
 			target = 33F59A555FBD561669F44E365E3A0307 /* TMUIExtensions */;
-			targetProxy = 2CCE45E4BB4395AD6B63B2E1E7270238 /* PBXContainerItemProxy */;
+			targetProxy = B2DB7F88E60465D6F72387D4A63FCBFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1149,35 +727,19 @@
 			};
 			name = Release;
 		};
-		59707C16674C8E95ED8C2E5932FF7F00 /* Debug */ = {
+		55F955D6F970B931FE3ACC6849B136D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F41C492E4E4C40881FF01A1AF8B36198 /* TMUIExtensions.debug.xcconfig */;
+			baseConfigurationReference = C9477C482BA7B13DB1632A867F3655AB /* TMUIExtensions.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TMUIExtensions/TMUIExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TMUIExtensions/TMUIExtensions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TMUIExtensions/TMUIExtensions.modulemap";
-				PRODUCT_MODULE_NAME = TMUIExtensions;
-				PRODUCT_NAME = TMUIExtensions;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		796957EF9EE655791431A3CEFDF5C491 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1271,36 +833,18 @@
 			};
 			name = Release;
 		};
-		9FEA7B3217AF83E275FCF04095471AE1 /* Release */ = {
+		A8F090BDCDC2FE86AE583DFB50E1FDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E9BB9485E1AEBB747AE4061A57502C /* TMUIExtensions.release.xcconfig */;
+			baseConfigurationReference = 5CF08598FEAB002790EA256F54DF5BD8 /* TMUIExtensions.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TMUIExtensions/TMUIExtensions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TMUIExtensions/TMUIExtensions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TMUIExtensions/TMUIExtensions.modulemap";
-				PRODUCT_MODULE_NAME = TMUIExtensions;
-				PRODUCT_NAME = TMUIExtensions;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		AF61F99EE35B864EF363AB51D26FDCD8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1532,11 +1076,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDCBE052ED1784B231830EF95AAFA010 /* Build configuration list for PBXNativeTarget "TMUIExtensions" */ = {
+		5B33470AA5C2AA8522C8CD46B7D9A54B /* Build configuration list for PBXAggregateTarget "TMUIExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59707C16674C8E95ED8C2E5932FF7F00 /* Debug */,
-				9FEA7B3217AF83E275FCF04095471AE1 /* Release */,
+				A8F090BDCDC2FE86AE583DFB50E1FDDB /* Debug */,
+				55F955D6F970B931FE3ACC6849B136D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
