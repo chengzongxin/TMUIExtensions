@@ -1,0 +1,6 @@
+framework module TMUIExtensions {
+  umbrella header "TMUIExtensions.h"
+
+  export *
+  module * { export * }
+}

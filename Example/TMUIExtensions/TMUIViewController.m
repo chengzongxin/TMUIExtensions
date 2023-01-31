@@ -7,6 +7,7 @@
 //
 
 #import "TMUIViewController.h"
+#import <TMUICore/TMUICore.h>
 
 @interface TMUIViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    classref_t *classes = nil;
+    int count = tmui_getProjectClassList(&classes);
+    for (int i = 0; i < count; i++) {
+        Class class = (__bridge Class)classes[i];
+        NSLog(@"%@",NSStringFromClass(class));
+    }
+    
+    NSLog(@"finish");
 }
 
 - (void)didReceiveMemoryWarning
