@@ -44,10 +44,10 @@ Pod::Spec.new do |s|
   s.dependency 'TMUICore'
 
   
-  if ENV['IS_SOURCE']
-      puts '-------------------------------------------------------------------'
-      puts 'Notice:TMUIExtensions is source now'
-      puts '-------------------------------------------------------------------'
+#  if ENV['IS_SOURCE']
+#      puts '-------------------------------------------------------------------'
+#      puts 'Notice:TMUIExtensions is source now'
+#      puts '-------------------------------------------------------------------'
       
         #引入TMUIExtensions中所有资源文件
         s.source_files = 'TMUIExtensions/Classes/**/*'
@@ -65,14 +65,14 @@ Pod::Spec.new do |s|
           ss.dependency 'TMUIExtensions/Foundation'
         end
         
-    else
-      puts '-------------------------------------------------------------------'
-      puts 'Notice:TMUIExtensions is binary now'
-      puts '-------------------------------------------------------------------'
-      s.source_files = 'Pod/Products/include/**'
-      s.public_header_files = 'Pod/Products/include/*.h'
-      s.ios.vendored_libraries = 'Pod/Products/lib/libTMUIExtensionsBinary.a'
-    end
+#    else
+#      puts '-------------------------------------------------------------------'
+#      puts 'Notice:TMUIExtensions is binary now'
+#      puts '-------------------------------------------------------------------'
+#      s.source_files = 'Pod/Products/include/**'
+#      s.public_header_files = 'Pod/Products/include/*.h'
+#      s.ios.vendored_libraries = 'Pod/Products/lib/libTMUIExtensionsBinary.a'
+#    end
 
 
 end
